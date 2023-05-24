@@ -12,6 +12,7 @@ Golang AI applications have incredible potential. With unique features like inex
 - [dataframe-go](https://github.com/rocketlaunchr/dataframe-go): DataFrames for Go: For statistics, machine-learning, and data manipulation/exploration.
 - [spago](https://github.com/nlpodyssey/spago): Self-contained Machine Learning and Natural Language Processing library in Go.
 - [goro](https://github.com/aunum/goro): A High-level Machine Learning Library for Go.
+- [goga](https://github.com/tomcraven/goga): Golang Genetic Algorithm.
 
 ## Neural Networks
 
@@ -19,7 +20,7 @@ Golang AI applications have incredible potential. With unique features like inex
 - [go-neural](https://github.com/NOX73/go-neural): Neural network implementation on golang.
 - [go-deep](https://github.com/patrikeh/go-deep): Artificial Neural Network.
 - [olivia](https://github.com/olivia-ai/olivia): Your new best friend powered by an artificial neural network.
-
+- [gomid](https://github.com/surenderthakran/gomind): A simplistic Neural Network Library in Go.
 
 ## Linear Algebra
 
@@ -41,6 +42,19 @@ Golang AI applications have incredible potential. With unique features like inex
 - [regommend](https://github.com/muesli/regommend): Recommendation engine for Go.
 - [gorse](https://github.com/zhenghaoz/gorse): Go Recommender System Engine.
 - [too](https://github.com/FurqanSoftware/too): Simple recommendation engine implementation built on top of Redis.
+
+## Evolutionary Algorithms
+
+- [eaopt](https://github.com/MaxHalford/eaopt): Evolutionary optimization library for Go (genetic algorithm, partical swarm optimization, differential evolution).
+- [evo](https://github.com/cbarrick/evo): Evolutionary Algorithms in Go.
+
+## Graph
+
+- [gogl](https://github.com/sdboyer/gogl): A graph library in Go.
+
+## DataFrames
+
+- [gota](https://github.com/go-gota/gota): Gota: DataFrames and data wrangling in Go.
 
 # Books
 
