@@ -29,7 +29,7 @@ Golang AI applications have incredible potential. With unique features like inex
 
 ## Probability Distributions
 
-- [Probability distributions and associated methods in Go](https://github.com/e-dard/godist).
+- [godist](https://github.com/e-dard/godist): Probability distributions and associated methods in Go.
 
 ## Decision Trees
 
