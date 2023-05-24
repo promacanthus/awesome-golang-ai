@@ -41,3 +41,9 @@ Golang AI applications have incredible potential. With unique features like inex
 - [regommend](https://github.com/muesli/regommend): Recommendation engine for Go.
 - [gorse](https://github.com/zhenghaoz/gorse): Go Recommender System Engine.
 - [too](https://github.com/FurqanSoftware/too): Simple recommendation engine implementation built on top of Redis.
+
+# Books
+
+- [Machine Learning With go](https://github.com/promacanthus/awesome-golang-ai/blob/main/books/Machine%20Learning%20with%20Go.pdf)
+- [机器学习：Go语言实现](https://github.com/promacanthus/awesome-golang-ai/blob/main/books/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%20Go%E8%AF%AD%E8%A8%80%E5%AE%9E%E7%8E%B0.pdf)
+- [GO语言机器学习实战](https://book.douban.com/subject/35037170/)
