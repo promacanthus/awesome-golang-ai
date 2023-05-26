@@ -8,11 +8,10 @@ Golang AI applications have incredible potential. With unique features like inex
 - [GoLearn](https://github.com/sjwhitworth/golearn): simple and customizable batteries included ML library in Go.
 - [gonum](https://github.com/gonum/gonum)：Gonum is a set of numeric libraries for the Go programming language. It contains libraries for matrices, statistics, optimization, and more.
 - [gorgonia](https://github.com/gorgonia/gorgonia): Gorgonia is a library that helps facilitate machine learning in Go.
-- [Machine-Learning-With-Go](https://github.com/PacktPublishing/Machine-Learning-With-Go): Machine Learning With Go, published by Packt.
-- [dataframe-go](https://github.com/rocketlaunchr/dataframe-go): DataFrames for Go: For statistics, machine-learning, and data manipulation/exploration.
 - [spago](https://github.com/nlpodyssey/spago): Self-contained Machine Learning and Natural Language Processing library in Go.
 - [goro](https://github.com/aunum/goro): A High-level Machine Learning Library for Go.
 - [goga](https://github.com/tomcraven/goga): Golang Genetic Algorithm.
+- [hep](https://github.com/go-hep/hep): hep is the mono repository holding all of go-hep.org/x/hep packages and tools.
 
 ## Neural Networks
 
@@ -32,6 +31,11 @@ Golang AI applications have incredible potential. With unique features like inex
 - [godist](https://github.com/e-dard/godist): Probability distributions and associated methods in Go.
 
 ## Decision Trees
+
+## Regression
+
+- [regression](https://github.com/sajari/regression): Multivariable regression library in Go.
+- [ridge](https://github.com/promacanthus/ridge): Ridge regression in Go.
 
 ## Bayesian Classifiers
 
@@ -55,10 +59,12 @@ Golang AI applications have incredible potential. With unique features like inex
 ## DataFrames
 
 - [gota](https://github.com/go-gota/gota): Gota: DataFrames and data wrangling in Go.
+- [dataframe-go](https://github.com/rocketlaunchr/dataframe-go): DataFrames for Go: For statistics, machine-learning, and data manipulation/exploration.
 
 # Books
 
 - [Machine Learning With go](https://github.com/promacanthus/awesome-golang-ai/blob/main/books/Machine%20Learning%20with%20Go.pdf)
+- [Machine-Learning-With-Go](https://github.com/promacanthus/Machine-Learning-With-Go): example code.
 - [机器学习：Go语言实现](https://github.com/promacanthus/awesome-golang-ai/blob/main/books/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%20Go%E8%AF%AD%E8%A8%80%E5%AE%9E%E7%8E%B0.pdf)
 - [GO语言机器学习实战](https://book.douban.com/subject/35037170/)
 
