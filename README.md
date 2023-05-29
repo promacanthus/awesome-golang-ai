@@ -4,14 +4,16 @@ Golang AI applications have incredible potential. With unique features like inex
 
 ## General Machine Learning libraries
 
-- [GoML](https://github.com/cdipaolo/goml)：On-line Machine Learning in Go (and so much more).
-- [GoLearn](https://github.com/sjwhitworth/golearn): simple and customizable batteries included ML library in Go.
+- [goml](https://github.com/cdipaolo/goml)：On-line Machine Learning in Go (and so much more).
+- [golearn](https://github.com/sjwhitworth/golearn): simple and customizable batteries included ML library in Go.
 - [gonum](https://github.com/gonum/gonum)：Gonum is a set of numeric libraries for the Go programming language. It contains libraries for matrices, statistics, optimization, and more.
 - [gorgonia](https://github.com/gorgonia/gorgonia): Gorgonia is a library that helps facilitate machine learning in Go.
 - [spago](https://github.com/nlpodyssey/spago): Self-contained Machine Learning and Natural Language Processing library in Go.
 - [goro](https://github.com/aunum/goro): A High-level Machine Learning Library for Go.
 - [goga](https://github.com/tomcraven/goga): Golang Genetic Algorithm.
 - [hep](https://github.com/go-hep/hep): hep is the mono repository holding all of go-hep.org/x/hep packages and tools.
+- [hector](https://github.com/xlvector/hector): Golang machine learning lib.
+- [sklearn](https://github.com/pa-m/sklearn): bits of sklearn ported to Go.
 
 ## Neural Networks
 
@@ -32,6 +34,7 @@ Golang AI applications have incredible potential. With unique features like inex
 
 ## Decision Trees
 
+- [CloudForest](https://github.com/ryanbressler/CloudForest)
 ## Regression
 
 - [regression](https://github.com/sajari/regression): Multivariable regression library in Go.
@@ -39,7 +42,8 @@ Golang AI applications have incredible potential. With unique features like inex
 
 ## Bayesian Classifiers
 
-- [bayesian](https://github.com/jbrukh/bayesian):Naive Bayesian Classification for Golang.
+- [bayesian](https://github.com/jbrukh/bayesian): Naive Bayesian Classification for Golang.
+- [multibayes](https://github.com/lytics/multibayes): Multiclass Naive Bayesian Classification.
 
 ## Recommendation Engines
 
@@ -56,10 +60,16 @@ Golang AI applications have incredible potential. With unique features like inex
 
 - [gogl](https://github.com/sdboyer/gogl): A graph library in Go.
 
+## Cluster
+
+- [gokmeans](https://github.com/mash/gokmeans): K-means algorithm implemented in Go (golang).
+- [kmeans](https://github.com/muesli/kmeans): k-means clustering algorithm implementation written in Go.
+
 ## DataFrames
 
 - [gota](https://github.com/go-gota/gota): Gota: DataFrames and data wrangling in Go.
 - [dataframe-go](https://github.com/rocketlaunchr/dataframe-go): DataFrames for Go: For statistics, machine-learning, and data manipulation/exploration.
+- [qframe](https://github.com/tobgu/qframe): Immutable data frame for Go.
 
 # Books
 
@@ -73,3 +83,7 @@ Golang AI applications have incredible potential. With unique features like inex
 ## Reinforcement Learning
 
 - [Hands-on Reinforcement Learning](https://hrl.boyuai.com/)
+
+# Datasets
+
+- [LendingClub]()
