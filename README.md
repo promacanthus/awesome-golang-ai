@@ -65,6 +65,12 @@ Golang AI applications have incredible potential. With unique features like inex
 - [gokmeans](https://github.com/mash/gokmeans): K-means algorithm implemented in Go (golang).
 - [kmeans](https://github.com/muesli/kmeans): k-means clustering algorithm implementation written in Go.
 
+## Anomaly Detection
+
+- [morgoth](https://github.com/nathanielc/morgoth): Metric anomaly detection.
+- [anomalyzer](https://github.com/lytics/anomalyzer): Probabilistic anomaly detection for time series data.
+- [goanomaly](https://github.com/sec51/goanomaly): Golang library for anomaly detection. Uses the Gaussian distribution and the probability density formula.
+
 ## DataFrames
 
 - [gota](https://github.com/go-gota/gota): Gota: DataFrames and data wrangling in Go.
