@@ -22,6 +22,10 @@ Golang AI applications have incredible potential. With unique features like inex
 - [go-deep](https://github.com/patrikeh/go-deep): Artificial Neural Network.
 - [olivia](https://github.com/olivia-ai/olivia): Your new best friend powered by an artificial neural network.
 - [gomid](https://github.com/surenderthakran/gomind): A simplistic Neural Network Library in Go.
+- [neurgo](https://github.com/tleyden/neurgo): Neural Network toolkit in Go.
+- [gonn](https://github.com/fxsjy/gonn): GoNN is an implementation of Neural Network in Go Language, which includes BPNN, RBF, PCN.
+- [gosom](https://github.com/milosgajdos/gosom): Self-organizing maps in Go.
+- [go-perceptron-go](https://github.com/made2591/go-perceptron-go): A single / multi layer / recurrent neural network written in Golang.
 
 ## Linear Algebra
 
@@ -76,6 +80,10 @@ Golang AI applications have incredible potential. With unique features like inex
 - [gota](https://github.com/go-gota/gota): Gota: DataFrames and data wrangling in Go.
 - [dataframe-go](https://github.com/rocketlaunchr/dataframe-go): DataFrames for Go: For statistics, machine-learning, and data manipulation/exploration.
 - [qframe](https://github.com/tobgu/qframe): Immutable data frame for Go.
+
+## Explaining Model
+
+- [lime](https://github.com/marcotcr/lime): Lime: Explaining the predictions of any machine learning classifier.
 
 # Books
 
