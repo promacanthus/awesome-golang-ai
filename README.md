@@ -2,6 +2,35 @@
 
 Golang AI applications have incredible potential. With unique features like inexplicable speed, easy debugging, concurrency, and excellent libraries for ML, deep learning, and reinforcement learning.
 
+## Benchmark
+
+- [VBench](https://github.com/Vchitect/VBench): VBench is an open-source project aiming to build a comprehensive evaluation benchmark for video generation models.
+- [aider](https://github.com/Aider-AI/aider): The leaderboards page of aider presents a performance comparison of various LLMs in programming-related tasks, such as code writing and editing.
+
+## Large Language Model
+
+### ChatGPT Apps
+
+- [feishu-openai](https://github.com/ConnectAI-E/feishu-openai):Feishu (Lark) integrated with (GPT-4 + GPT-4V + DALL·E-3 + Whisper) delivers an extraordinary work experience.
+- [chatgpt-telegram](https://github.com/m1guelpf/chatgpt-telegram): Run your own GPTChat Telegram bot, with a single command.
+
+### DevTools
+
+- [ollama](https://github.com/ollama/ollama): Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 2, and other large language models.
+
+### Retrieval-Augmented Generation
+
+
+### Vector Database
+
+- [milvus](https://github.com/milvus-io/milvus): Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search.
+- [weaviate](https://github.com/weaviate/weaviate): Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​.
+- [tidb](https://github.com/pingcap/tidb): TiDB - the open-source, cloud-native, distributed SQL database designed for modern applications.
+
+### Pipeline and Data Version
+
+- [pachyderm](https://github.com/pachyderm/pachyderm): Data-Centric Pipelines and Data Versioning.
+
 ## General Machine Learning libraries
 
 - [goml](https://github.com/cdipaolo/goml)：On-line Machine Learning in Go (and so much more).
