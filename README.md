@@ -8,6 +8,8 @@ Golang AI applications have incredible potential. With unique features like inex
 - [aider](https://github.com/Aider-AI/aider): The leaderboards page of aider presents a performance comparison of various LLMs in programming-related tasks, such as code writing and editing.
 - [tau-bench](https://github.com/sierra-research/tau-bench): TauBench is an open-source benchmark suite designed to evaluate the performance of large language models (LLMs) on complex reasoning tasks across multiple domains.
 - [SWE-bench](https://github.com/SWE-bench/SWE-bench): SWE-bench is a benchmark suite designed to evaluate the capabilities of large language models (LLMs) in solving real-world software engineering tasks, focusing on actual software bug-fixing challenges extracted from open-source projects.
+- [geneval](https://github.com/djghosh13/geneval): GenEval: An object-focused framework for evaluating text-to-image alignment.
+- [DPG-Bench](https://github.com/TencentQQGYLab/ELLA): The DPG benchmark tests a model’s ability to follow complex image generation prompts.
 
 ## Large Language Model
 
