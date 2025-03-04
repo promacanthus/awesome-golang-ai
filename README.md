@@ -10,6 +10,8 @@ Golang AI applications have incredible potential. With unique features like inex
 - [SWE-bench](https://github.com/SWE-bench/SWE-bench): SWE-bench is a benchmark suite designed to evaluate the capabilities of large language models (LLMs) in solving real-world software engineering tasks, focusing on actual software bug-fixing challenges extracted from open-source projects.
 - [geneval](https://github.com/djghosh13/geneval): GenEval: An object-focused framework for evaluating text-to-image alignment.
 - [DPG-Bench](https://github.com/TencentQQGYLab/ELLA): The DPG benchmark tests a model’s ability to follow complex image generation prompts.
+- [BIG-bench](https://github.com/google/BIG-bench): Beyond the Imitation Game collaborative benchmark for measuring and extrapolating the capabilities of language models.
+- [MMLU](https://github.com/hendrycks/test): Measuring Massive Multitask Language Understanding | ICLR 2021.
 
 ## Large Language Model
 
