@@ -12,6 +12,11 @@ Golang AI applications have incredible potential. With unique features like inex
 - [DPG-Bench](https://github.com/TencentQQGYLab/ELLA): The DPG benchmark tests a model’s ability to follow complex image generation prompts.
 - [BIG-bench](https://github.com/google/BIG-bench): Beyond the Imitation Game collaborative benchmark for measuring and extrapolating the capabilities of language models.
 - [MMLU](https://github.com/hendrycks/test): Measuring Massive Multitask Language Understanding | ICLR 2021.
+- [LiveCodeBench](https://github.com/LiveCodeBench/LiveCodeBench): Holistic and Contamination Free Evaluation of Large Language Models for Code.
+- [LiveBench](https://github.com/LiveBench/LiveBench): A Challenging, Contamination-Free LLM Benchmark.
+- [IFEval](https://huggingface.co/datasets/google/IFEval): IFEval is designed to systematically evaluate the instruction-following capabilities of large language models by incorporating 25 verifiable instruction types (e.g., format constraints, keyword inclusion) and applying dual strict-loose metrics for automated, objective assessment of model compliance.
+- [BFCL](https://gorilla.cs.berkeley.edu/blogs/8_berkeley_function_calling_leaderboard.html): BFCL aims to provide a thorough study of the function-calling capability of different LLMs.
+- [AIME](https://github.com/eth-sri/matharena): Evaluation of LLMs on latest math competitions.
 
 ## Large Language Model
 
