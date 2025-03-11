@@ -28,6 +28,7 @@ Golang AI applications have incredible potential. With unique features like inex
 ### DevTools
 
 - [ollama](https://github.com/ollama/ollama): Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 2, and other large language models.
+- [go-attention](https://github.com/takara-ai/go-attention): A full attention mechanism and transformer in pure go.
 
 ### Retrieval-Augmented Generation
 
