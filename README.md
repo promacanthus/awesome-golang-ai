@@ -29,6 +29,9 @@ Golang AI applications have incredible potential. With unique features like inex
 
 - [ollama](https://github.com/ollama/ollama): Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 2, and other large language models.
 - [go-attention](https://github.com/takara-ai/go-attention): A full attention mechanism and transformer in pure go.
+- [langchaingo](https://github.com/tmc/langchaingo): LangChain for Go, the easiest way to write LLM-based programs in Go.
+- [gpt4all-bindings](https://github.com/nomic-ai/gpt4all/tree/41c9013fa46a194b3e4fee6ced1b9d1b65e177ac/gpt4all-bindings/golang): GPT4All Language Bindings provide cross-language interfaces to easily integrate and interact with GPT4All's local LLMs, simplifying model loading and inference for developers.
+- [go-openai](https://github.com/sashabaranov/go-openai): OpenAI ChatGPT, GPT-3, GPT-4, DALL·E, Whisper API wrapper for Go.
 
 ### Retrieval-Augmented Generation
 
