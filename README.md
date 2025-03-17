@@ -11,7 +11,7 @@ Golang AI applications have incredible potential. With unique features like inex
 - [geneval](https://github.com/djghosh13/geneval): GenEval: An object-focused framework for evaluating text-to-image alignment.
 - [DPG-Bench](https://github.com/TencentQQGYLab/ELLA): The DPG benchmark tests a model’s ability to follow complex image generation prompts.
 - [BIG-bench](https://github.com/google/BIG-bench): Beyond the Imitation Game collaborative benchmark for measuring and extrapolating the capabilities of language models.
-- [MMLU](https://github.com/hendrycks/test): Measuring Massive Multitask Language Understanding | ICLR 2021.
+- [MMLU](https://github.com/hendrycks/test): Measuring Massive Multitask Language Understanding ICLR 2021.
 - [LiveCodeBench](https://github.com/LiveCodeBench/LiveCodeBench): Holistic and Contamination Free Evaluation of Large Language Models for Code.
 - [LiveBench](https://github.com/LiveBench/LiveBench): A Challenging, Contamination-Free LLM Benchmark.
 - [IFEval](https://huggingface.co/datasets/google/IFEval): IFEval is designed to systematically evaluate the instruction-following capabilities of large language models by incorporating 25 verifiable instruction types (e.g., format constraints, keyword inclusion) and applying dual strict-loose metrics for automated, objective assessment of model compliance.
