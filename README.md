@@ -18,6 +18,12 @@ Golang AI applications have incredible potential. With unique features like inex
 - [BFCL](https://gorilla.cs.berkeley.edu/blogs/8_berkeley_function_calling_leaderboard.html): BFCL aims to provide a thorough study of the function-calling capability of different LLMs.
 - [AIME](https://github.com/eth-sri/matharena): Evaluation of LLMs on latest math competitions.
 - [MTEB](https://github.com/embeddings-benchmark/mteb): Massive Text Embedding Benchmark.
+- [ARC-AGI](https://github.com/fchollet/ARC-AGI): The Abstraction and Reasoning Corpus.
+- [gpqa](https://github.com/idavidrein/gpqa): GPQA: A Graduate-Level Google-Proof Q&A Benchmark.
+- [Omni-MATH](https://github.com/KbsdJames/Omni-MATH): Omni-MATH is a comprehensive and challenging benchmark specifically designed to assess LLMs' mathematical reasoning at the Olympiad level.
+- [MathVista](https://github.com/lupantech/MathVista): MathVista: data, code, and evaluation for Mathematical Reasoning in Visual Contexts.
+- [grade-school-math](https://github.com/openai/grade-school-math): The GSM8K dataset contains 8.5K grade school math word problems designed to evaluate multi-step reasoning capabilities in language models, revealing that even large transformers struggle with these conceptually simple yet procedurally complex tasks.
+- [math](https://github.com/hendrycks/math): The MATH Dataset for NeurIPS 2021, is a benchmark for evaluating mathematical problem-solving capabilities, offering dataset loaders, evaluation code, and pre-training data.
 
 ## Large Language Model
 
