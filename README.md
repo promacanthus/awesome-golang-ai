@@ -25,6 +25,12 @@ Golang AI applications have incredible potential. With unique features like inex
 - [feishu-openai](https://github.com/ConnectAI-E/feishu-openai):Feishu (Lark) integrated with (GPT-4 + GPT-4V + DALL·E-3 + Whisper) delivers an extraordinary work experience.
 - [chatgpt-telegram](https://github.com/m1guelpf/chatgpt-telegram): Run your own GPTChat Telegram bot, with a single command.
 
+### SDKs
+
+- [openai-go](https://github.com/openai/openai-go): The official Go library for the OpenAI API.
+- [generative-ai-go](https://github.com/google/generative-ai-go): Go SDK for Google Generative AI.
+- [anthropic-sdk-go](https://github.com/anthropics/anthropic-sdk-go): Access to Anthropic's safety-first language model APIs via Go.
+
 ### DevTools
 
 - [ollama](https://github.com/ollama/ollama): Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 2, and other large language models.
@@ -32,6 +38,7 @@ Golang AI applications have incredible potential. With unique features like inex
 - [langchaingo](https://github.com/tmc/langchaingo): LangChain for Go, the easiest way to write LLM-based programs in Go.
 - [gpt4all-bindings](https://github.com/nomic-ai/gpt4all/tree/41c9013fa46a194b3e4fee6ced1b9d1b65e177ac/gpt4all-bindings/golang): GPT4All Language Bindings provide cross-language interfaces to easily integrate and interact with GPT4All's local LLMs, simplifying model loading and inference for developers.
 - [go-openai](https://github.com/sashabaranov/go-openai): OpenAI ChatGPT, GPT-3, GPT-4, DALL·E, Whisper API wrapper for Go.
+- [llama.go](https://github.com/gotzmann/llama.go): llama.go is like llama.cpp in pure Golang.
 
 ### Retrieval-Augmented Generation
 
