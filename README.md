@@ -25,6 +25,11 @@ Golang AI applications have incredible potential. With unique features like inex
 - [grade-school-math](https://github.com/openai/grade-school-math): The GSM8K dataset contains 8.5K grade school math word problems designed to evaluate multi-step reasoning capabilities in language models, revealing that even large transformers struggle with these conceptually simple yet procedurally complex tasks.
 - [math](https://github.com/hendrycks/math): The MATH Dataset for NeurIPS 2021, is a benchmark for evaluating mathematical problem-solving capabilities, offering dataset loaders, evaluation code, and pre-training data.
 
+## [Model Context Protocol](https://modelcontextprotocol.io/introduction)
+
+- [mcp-go](https://github.com/mark3labs/mcp-go): A Go implementation of the Model Context Protocol (MCP), enabling seamless integration between LLM applications and external data sources and tools.
+- [mcp-golang](https://github.com/metoro-io/mcp-golang): Write Model Context Protocol servers in few lines of go code. 
+  
 ## Large Language Model
 
 ### ChatGPT Apps
