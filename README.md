@@ -17,6 +17,7 @@ Golang AI applications have incredible potential. With unique features like inex
 - [IFEval](https://huggingface.co/datasets/google/IFEval): IFEval is designed to systematically evaluate the instruction-following capabilities of large language models by incorporating 25 verifiable instruction types (e.g., format constraints, keyword inclusion) and applying dual strict-loose metrics for automated, objective assessment of model compliance.
 - [BFCL](https://gorilla.cs.berkeley.edu/blogs/8_berkeley_function_calling_leaderboard.html): BFCL aims to provide a thorough study of the function-calling capability of different LLMs.
 - [AIME](https://github.com/eth-sri/matharena): Evaluation of LLMs on latest math competitions.
+- [MTEB](https://github.com/embeddings-benchmark/mteb): Massive Text Embedding Benchmark.
 
 ## Large Language Model
 
@@ -39,6 +40,8 @@ Golang AI applications have incredible potential. With unique features like inex
 - [gpt4all-bindings](https://github.com/nomic-ai/gpt4all/tree/41c9013fa46a194b3e4fee6ced1b9d1b65e177ac/gpt4all-bindings/golang): GPT4All Language Bindings provide cross-language interfaces to easily integrate and interact with GPT4All's local LLMs, simplifying model loading and inference for developers.
 - [go-openai](https://github.com/sashabaranov/go-openai): OpenAI ChatGPT, GPT-3, GPT-4, DALL·E, Whisper API wrapper for Go.
 - [llama.go](https://github.com/gotzmann/llama.go): llama.go is like llama.cpp in pure Golang.
+- [eino](https://github.com/cloudwego/eino): The ultimate LLM/AI application development framework in Golang.
+- [fabric](https://github.com/danielmiessler/fabric): fabric is an open-source framework for augmenting humans using AI. It provides a modular framework for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.
 
 ### Retrieval-Augmented Generation
 
