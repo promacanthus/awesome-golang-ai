@@ -24,6 +24,7 @@ Golang AI applications have incredible potential. With unique features like inex
 - [MathVista](https://github.com/lupantech/MathVista): MathVista: data, code, and evaluation for Mathematical Reasoning in Visual Contexts.
 - [grade-school-math](https://github.com/openai/grade-school-math): The GSM8K dataset contains 8.5K grade school math word problems designed to evaluate multi-step reasoning capabilities in language models, revealing that even large transformers struggle with these conceptually simple yet procedurally complex tasks.
 - [math](https://github.com/hendrycks/math): The MATH Dataset for NeurIPS 2021, is a benchmark for evaluating mathematical problem-solving capabilities, offering dataset loaders, evaluation code, and pre-training data.
+- [Code4Bench](https://github.com/code4bench/Code4Bench): A Mutildimensional Benchmark of Codeforces Data for Different Program Analysis Techniques.
 
 ## [Model Context Protocol](https://modelcontextprotocol.io/introduction)
 
