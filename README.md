@@ -54,6 +54,7 @@ Golang AI applications have incredible potential. With unique features like inex
 - [llama.go](https://github.com/gotzmann/llama.go): llama.go is like llama.cpp in pure Golang.
 - [eino](https://github.com/cloudwego/eino): The ultimate LLM/AI application development framework in Golang.
 - [fabric](https://github.com/danielmiessler/fabric): fabric is an open-source framework for augmenting humans using AI. It provides a modular framework for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.
+- [genkit](https://github.com/firebase/genkit): An open source framework for building AI-powered apps with familiar code-centric patterns. Genkit makes it easy to develop, integrate, and test AI features with observability and evaluations. Genkit works with various models and platforms.
 
 ### Retrieval-Augmented Generation
 
