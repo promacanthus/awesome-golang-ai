@@ -25,7 +25,11 @@ Golang AI applications have incredible potential. With unique features like inex
 - [grade-school-math](https://github.com/openai/grade-school-math): The GSM8K dataset contains 8.5K grade school math word problems designed to evaluate multi-step reasoning capabilities in language models, revealing that even large transformers struggle with these conceptually simple yet procedurally complex tasks.
 - [math](https://github.com/hendrycks/math): The MATH Dataset for NeurIPS 2021, is a benchmark for evaluating mathematical problem-solving capabilities, offering dataset loaders, evaluation code, and pre-training data.
 - [Code4Bench](https://github.com/code4bench/Code4Bench): A Mutildimensional Benchmark of Codeforces Data for Different Program Analysis Techniques.
-- [Video-MME](https://github.com/BradyFU/Video-MME): The First-Ever Comprehensive Evaluation Benchmark of Multi-modal LLMs in Video Analysis.
+- [Video-MME](https://github.com/BradyFU/Video-MME): [CVPR 2025] Video-MME: The First-Ever Comprehensive Evaluation Benchmark of Multi-modal LLMs in Video Analysis.
+- [LongVideoBench](https://github.com/longvideobench/LongVideoBench): [Neurips 24' D&B] Official Dataloader and Evaluation Scripts for LongVideoBench.
+- [perception_test](https://github.com/google-deepmind/perception_test): A Diagnostic Benchmark for Multimodal Video Models is a multimodal benchmark designed to comprehensively evaluate the perception and reasoning skills of multimodal video models.
+- [MLVU](https://github.com/JUNJIE99/MLVU): Multi-task Long Video Understanding Benchmark.
+- [TempCompass](https://github.com/llyx97/TempCompass): A benchmark to evaluate the temporal perception ability of Video LLMs.
 
 ## [Model Context Protocol](https://modelcontextprotocol.io/introduction)
 
