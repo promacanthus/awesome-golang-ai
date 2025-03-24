@@ -12,6 +12,7 @@ Golang AI applications have incredible potential. With unique features like inex
 - [DPG-Bench](https://github.com/TencentQQGYLab/ELLA): The DPG benchmark tests a model’s ability to follow complex image generation prompts.
 - [BIG-bench](https://github.com/google/BIG-bench): Beyond the Imitation Game collaborative benchmark for measuring and extrapolating the capabilities of language models.
 - [MMLU](https://github.com/hendrycks/test): Measuring Massive Multitask Language Understanding ICLR 2021.
+- [MMLU-Pro](https://github.com/TIGER-AI-Lab/MMLU-Pro): [NeurIPS 2024] A More Robust and Challenging Multi-Task Language Understanding Benchmark.
 - [LiveCodeBench](https://github.com/LiveCodeBench/LiveCodeBench): Holistic and Contamination Free Evaluation of Large Language Models for Code.
 - [LiveBench](https://github.com/LiveBench/LiveBench): A Challenging, Contamination-Free LLM Benchmark.
 - [IFEval](https://huggingface.co/datasets/google/IFEval): IFEval is designed to systematically evaluate the instruction-following capabilities of large language models by incorporating 25 verifiable instruction types (e.g., format constraints, keyword inclusion) and applying dual strict-loose metrics for automated, objective assessment of model compliance.
@@ -30,6 +31,7 @@ Golang AI applications have incredible potential. With unique features like inex
 - [perception_test](https://github.com/google-deepmind/perception_test): A Diagnostic Benchmark for Multimodal Video Models is a multimodal benchmark designed to comprehensively evaluate the perception and reasoning skills of multimodal video models.
 - [MLVU](https://github.com/JUNJIE99/MLVU): Multi-task Long Video Understanding Benchmark.
 - [TempCompass](https://github.com/llyx97/TempCompass): A benchmark to evaluate the temporal perception ability of Video LLMs.
+- [C-Eval](https://github.com/hkust-nlp/ceval): [NeurIPS 2023] A Chinese evaluation suite for foundation models.
 
 ## [Model Context Protocol](https://modelcontextprotocol.io/introduction)
 
