@@ -4,34 +4,77 @@ Golang AI applications have incredible potential. With unique features like inex
 
 ## Benchmark
 
-- [VBench](https://github.com/Vchitect/VBench): VBench is an open-source project aiming to build a comprehensive evaluation benchmark for video generation models.
-- [aider](https://github.com/Aider-AI/aider): The leaderboards page of aider presents a performance comparison of various LLMs in programming-related tasks, such as code writing and editing.
-- [tau-bench](https://github.com/sierra-research/tau-bench): TauBench is an open-source benchmark suite designed to evaluate the performance of large language models (LLMs) on complex reasoning tasks across multiple domains.
-- [SWE-bench](https://github.com/SWE-bench/SWE-bench): SWE-bench is a benchmark suite designed to evaluate the capabilities of large language models (LLMs) in solving real-world software engineering tasks, focusing on actual software bug-fixing challenges extracted from open-source projects.
-- [geneval](https://github.com/djghosh13/geneval): GenEval: An object-focused framework for evaluating text-to-image alignment.
-- [DPG-Bench](https://github.com/TencentQQGYLab/ELLA): The DPG benchmark tests a model’s ability to follow complex image generation prompts.
-- [BIG-bench](https://github.com/google/BIG-bench): Beyond the Imitation Game collaborative benchmark for measuring and extrapolating the capabilities of language models.
-- [MMLU](https://github.com/hendrycks/test): Measuring Massive Multitask Language Understanding ICLR 2021.
-- [MMLU-Pro](https://github.com/TIGER-AI-Lab/MMLU-Pro): [NeurIPS 2024] A More Robust and Challenging Multi-Task Language Understanding Benchmark.
-- [LiveCodeBench](https://github.com/LiveCodeBench/LiveCodeBench): Holistic and Contamination Free Evaluation of Large Language Models for Code.
-- [LiveBench](https://github.com/LiveBench/LiveBench): A Challenging, Contamination-Free LLM Benchmark.
-- [IFEval](https://huggingface.co/datasets/google/IFEval): IFEval is designed to systematically evaluate the instruction-following capabilities of large language models by incorporating 25 verifiable instruction types (e.g., format constraints, keyword inclusion) and applying dual strict-loose metrics for automated, objective assessment of model compliance.
-- [BFCL](https://gorilla.cs.berkeley.edu/blogs/8_berkeley_function_calling_leaderboard.html): BFCL aims to provide a thorough study of the function-calling capability of different LLMs.
-- [AIME](https://github.com/eth-sri/matharena): Evaluation of LLMs on latest math competitions.
-- [MTEB](https://github.com/embeddings-benchmark/mteb): Massive Text Embedding Benchmark.
+### English
+
 - [ARC-AGI](https://github.com/fchollet/ARC-AGI): The Abstraction and Reasoning Corpus.
-- [gpqa](https://github.com/idavidrein/gpqa): GPQA: A Graduate-Level Google-Proof Q&A Benchmark.
-- [Omni-MATH](https://github.com/KbsdJames/Omni-MATH): Omni-MATH is a comprehensive and challenging benchmark specifically designed to assess LLMs' mathematical reasoning at the Olympiad level.
-- [MathVista](https://github.com/lupantech/MathVista): MathVista: data, code, and evaluation for Mathematical Reasoning in Visual Contexts.
-- [grade-school-math](https://github.com/openai/grade-school-math): The GSM8K dataset contains 8.5K grade school math word problems designed to evaluate multi-step reasoning capabilities in language models, revealing that even large transformers struggle with these conceptually simple yet procedurally complex tasks.
-- [math](https://github.com/hendrycks/math): The MATH Dataset for NeurIPS 2021, is a benchmark for evaluating mathematical problem-solving capabilities, offering dataset loaders, evaluation code, and pre-training data.
-- [Code4Bench](https://github.com/code4bench/Code4Bench): A Mutildimensional Benchmark of Codeforces Data for Different Program Analysis Techniques.
-- [Video-MME](https://github.com/BradyFU/Video-MME): [CVPR 2025] Video-MME: The First-Ever Comprehensive Evaluation Benchmark of Multi-modal LLMs in Video Analysis.
-- [LongVideoBench](https://github.com/longvideobench/LongVideoBench): [Neurips 24' D&B] Official Dataloader and Evaluation Scripts for LongVideoBench.
-- [perception_test](https://github.com/google-deepmind/perception_test): A Diagnostic Benchmark for Multimodal Video Models is a multimodal benchmark designed to comprehensively evaluate the perception and reasoning skills of multimodal video models.
-- [MLVU](https://github.com/JUNJIE99/MLVU): Multi-task Long Video Understanding Benchmark.
-- [TempCompass](https://github.com/llyx97/TempCompass): A benchmark to evaluate the temporal perception ability of Video LLMs.
+- [ARC-Challenge](https://github.com/allenai/ARC-Solvers?tab=readme-ov-file): AI2 Reasoning Challenge (ARC) Set.
+- [BBH](https://github.com/suzgunmirac/BIG-Bench-Hard): Challenging BIG-Bench Tasks and Whether Chain-of-Thought Can Solve Them.
+- [BIG-bench](https://github.com/google/BIG-bench): Beyond the Imitation Game collaborative benchmark for measuring and extrapolating the capabilities of language models.
+- [GPQA](https://github.com/idavidrein/gpqa): GPQA: A Graduate-Level Google-Proof Q&A Benchmark.
+- [HelloSwag](https://github.com/rowanz/hellaswag): HellaSwag: Can a Machine _Really_ Finish Your Sentence?
+- [IFEval](https://huggingface.co/datasets/google/IFEval): IFEval is designed to systematically evaluate the instruction-following capabilities of large language models by incorporating 25 verifiable instruction types (e.g., format constraints, keyword inclusion) and applying dual strict-loose metrics for automated, objective assessment of model compliance.
+- [LiveBench](https://github.com/LiveBench/LiveBench): A Challenging, Contamination-Free LLM Benchmark.
+- [MMLU](https://github.com/hendrycks/test): Measuring Massive Multitask Language Understanding ICLR 2021.
+- [MMLU-CF](https://github.com/microsoft/MMLU-CF): A Contamination-free Multi-task Language Understanding Benchmark.
+- [MMLU-Pro](https://github.com/TIGER-AI-Lab/MMLU-Pro): [NeurIPS 2024] A More Robust and Challenging Multi-Task Language Understanding Benchmark.
+- [MTEB](https://github.com/embeddings-benchmark/mteb): Massive Text Embedding Benchmark.
+- [PIQA](https://github.com/ybisk/ybisk.github.io/tree/master/piqa): PIQA is a dataset for commonsense reasoning, and was created to investigate the physical knowledge of existing models in NLP.
+- [WinoGrande](https://github.com/allenai/winogrande): An Adversarial Winograd Schema Challenge at Scale.
+
+### Chinese
+
 - [C-Eval](https://github.com/hkust-nlp/ceval): [NeurIPS 2023] A Chinese evaluation suite for foundation models.
+- [CMMLU](https://github.com/haonan-li/CMMLU): Measuring massive multitask language understanding in Chinese.
+- [C-SimpleQA](https://github.com/OpenStellarTeam/ChineseSimpleQA): A Chinese Factuality Evaluation for Large Language Models.
+
+### Math
+
+- [AIME](https://github.com/eth-sri/matharena): Evaluation of LLMs on latest math competitions.
+- [grade-school-math](https://github.com/openai/grade-school-math): The GSM8K dataset contains 8.5K grade school math word problems designed to evaluate multi-step reasoning capabilities in language models, revealing that even large transformers struggle with these conceptually simple yet procedurally complex tasks.
+- [MATH](https://github.com/hendrycks/math): The MATH Dataset for NeurIPS 2021, is a benchmark for evaluating mathematical problem-solving capabilities, offering dataset loaders, evaluation code, and pre-training data.
+- [MathVista](https://github.com/lupantech/MathVista): MathVista: data, code, and evaluation for Mathematical Reasoning in Visual Contexts.
+- [Omni-MATH](https://github.com/KbsdJames/Omni-MATH): Omni-MATH is a comprehensive and challenging benchmark specifically designed to assess LLMs' mathematical reasoning at the Olympiad level.
+- [TAU-bench](https://github.com/sierra-research/tau-bench): TauBench is an open-source benchmark suite designed to evaluate the performance of large language models (LLMs) on complex reasoning tasks across multiple domains.
+
+### Code
+
+- [AIDER](https://github.com/Aider-AI/aider): The leaderboards page of aider presents a performance comparison of various LLMs in programming-related tasks, such as code writing and editing.
+- [BFCL](https://gorilla.cs.berkeley.edu/blogs/8_berkeley_function_calling_leaderboard.html): BFCL aims to provide a thorough study of the function-calling capability of different LLMs.
+- [BigCodeBench](https://github.com/bigcode-project/bigcodebench/): [ICLR'25] BigCodeBench: Benchmarking Code Generation Towards AGI.
+- [Code4Bench](https://github.com/code4bench/Code4Bench): A Mutildimensional Benchmark of Codeforces Data for Different Program Analysis Techniques.
+- [CRUXEval](https://github.com/facebookresearch/cruxeval): Code Reasoning, Understanding, and Execution Evaluation.
+- [HumanEval](https://github.com/openai/human-eval): Code for the paper "Evaluating Large Language Models Trained on Code".
+- [LiveCodeBench](https://github.com/LiveCodeBench/LiveCodeBench): Holistic and Contamination Free Evaluation of Large Language Models for Code.
+- [MBPP](https://github.com/google-research/google-research/tree/master/mbpp): The benchmark consists of around 1,000 crowd-sourced Python programming problems, designed to be solvable by entry level programmers, covering programming fundamentals, standard library functionality, and so on.
+- [MultiPL-E](https://github.com/nuprl/MultiPL-E): A multi-programming language benchmark for LLMs.
+- [SWE-bench](https://github.com/SWE-bench/SWE-bench): SWE-bench is a benchmark suite designed to evaluate the capabilities of large language models (LLMs) in solving real-world software engineering tasks, focusing on actual software bug-fixing challenges extracted from open-source projects.
+
+### Tool Use
+
+- [BFCL](https://github.com/ShishirPatil/gorilla/tree/main/berkeley-function-call-leaderboard): Training and Evaluating LLMs for Function Calls (Tool Calls).
+- [T-Eval](https://github.com/open-compass/T-Eval): [ACL2024] T-Eval: Evaluating Tool Utilization Capability of Large Language Models Step by Step.
+- [WildBench](https://github.com/allenai/WildBench): Benchmarking LLMs with Challenging Tasks from Real Users.
+
+### Open ended
+
+- [Arena-Hard](https://github.com/lmarena/arena-hard-auto): Arena-Hard-Auto: An automatic LLM benchmark.
+
+### Safety
+
+### False refusal
+
+- [Xstest](https://github.com/paul-rottger/xstest): Röttger et al. (NAACL 2024): "XSTest: A Test Suite for Identifying Exaggerated Safety Behaviours in Large Language Models".
+
+### Multi-modal
+
+- [DPG-Bench](https://github.com/TencentQQGYLab/ELLA): The DPG benchmark tests a model’s ability to follow complex image generation prompts.
+- [geneval](https://github.com/djghosh13/geneval): GenEval: An object-focused framework for evaluating text-to-image alignment.
+- [LongVideoBench](https://github.com/longvideobench/LongVideoBench): [Neurips 24' D&B] Official Dataloader and Evaluation Scripts for LongVideoBench.
+- [MLVU](https://github.com/JUNJIE99/MLVU): Multi-task Long Video Understanding Benchmark.
+- [perception_test](https://github.com/google-deepmind/perception_test): A Diagnostic Benchmark for Multimodal Video Models is a multimodal benchmark designed to comprehensively evaluate the perception and reasoning skills of multimodal video models.
+- [TempCompass](https://github.com/llyx97/TempCompass): A benchmark to evaluate the temporal perception ability of Video LLMs.
+- [VBench](https://github.com/Vchitect/VBench): VBench is an open-source project aiming to build a comprehensive evaluation benchmark for video generation models.
+- [Video-MME](https://github.com/BradyFU/Video-MME): [CVPR 2025] Video-MME: The First-Ever Comprehensive Evaluation Benchmark of Multi-modal LLMs in Video Analysis.
 
 ## [Model Context Protocol](https://modelcontextprotocol.io/introduction)
 
