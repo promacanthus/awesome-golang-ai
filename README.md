@@ -4,6 +4,8 @@ Golang AI applications have incredible potential. With unique features like inex
 
 ## Benchmark
 
+- [ADeLe](https://kinds-of-intelligence-cfi.github.io/ADELE/): ADeLe v1.0 is a comprehensive AI evaluation framework that combines explanatory analysis and predictive modeling capabilities to systematically assess AI system performance across multiple dimensions.
+
 ### English
 
 - [ARC-AGI](https://github.com/fchollet/ARC-AGI): The Abstraction and Reasoning Corpus.
