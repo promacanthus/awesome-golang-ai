@@ -5,6 +5,7 @@ Golang AI applications have incredible potential. With unique features like inex
 ## Benchmark
 
 - [ADeLe](https://kinds-of-intelligence-cfi.github.io/ADELE/): ADeLe v1.0 is a comprehensive AI evaluation framework that combines explanatory analysis and predictive modeling capabilities to systematically assess AI system performance across multiple dimensions.
+- [SWELancer](https://github.com/openai/SWELancer-Benchmark): The **SWE-Lancer-Benchmark** is designed to evaluate the capabilities of frontier LLMs in solving real-world freelance software engineering tasks, exploring their potential to generate economic value through complex software development scenarios.
 
 ### English
 
