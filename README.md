@@ -50,6 +50,7 @@ Golang AI applications have incredible potential. With unique features like inex
 - [LiveCodeBench](https://github.com/LiveCodeBench/LiveCodeBench): Holistic and Contamination Free Evaluation of Large Language Models for Code.
 - [MBPP](https://github.com/google-research/google-research/tree/master/mbpp): The benchmark consists of around 1,000 crowd-sourced Python programming problems, designed to be solvable by entry level programmers, covering programming fundamentals, standard library functionality, and so on.
 - [MultiPL-E](https://github.com/nuprl/MultiPL-E): A multi-programming language benchmark for LLMs.
+- [multi-swe-bench](https://github.com/multi-swe-bench/multi-swe-bench): The Multi-SWE-bench project, developed by ByteDance's Doubao team, is the first open-source multilingual dataset for evaluating and enhancing large language models' ability to automatically debug code, covering 7 major programming languages (e.g., Java, C++, JavaScript) with real-world GitHub issues to benchmark "full-stack engineering" capabilities.
 - [SWE-bench](https://github.com/SWE-bench/SWE-bench): SWE-bench is a benchmark suite designed to evaluate the capabilities of large language models (LLMs) in solving real-world software engineering tasks, focusing on actual software bug-fixing challenges extracted from open-source projects.
 
 ### Tool Use
