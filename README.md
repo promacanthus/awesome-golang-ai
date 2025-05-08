@@ -101,6 +101,7 @@ Golang AI applications have incredible potential. With unique features like inex
 - [openai-go](https://github.com/openai/openai-go): The official Go library for the OpenAI API.
 - [generative-ai-go](https://github.com/google/generative-ai-go): Go SDK for Google Generative AI.
 - [anthropic-sdk-go](https://github.com/anthropics/anthropic-sdk-go): Access to Anthropic's safety-first language model APIs via Go.
+- [deepseek-go](https://github.com/cohesion-org/deepseek-go): A Deepseek client written for Go supporting R-1, Chat V3, and Coder. Also supports external providers like Azure, OpenRouter and Local Ollama.
 
 ### DevTools
 
