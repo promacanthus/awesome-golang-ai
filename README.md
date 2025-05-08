@@ -87,9 +87,13 @@ Golang AI applications have incredible potential. With unique features like inex
   
 ## Large Language Model
 
+### GPT
+
+- [gpt-go](https://github.com/zakirullin/gpt-go): Tiny GPT implemented from scratch in pure Go. Trained on Jules Verne books.
+
 ### ChatGPT Apps
 
-- [feishu-openai](https://github.com/ConnectAI-E/feishu-openai):Feishu (Lark) integrated with (GPT-4 + GPT-4V + DALL·E-3 + Whisper) delivers an extraordinary work experience.
+- [feishu-openai](https://github.com/ConnectAI-E/feishu-openai): Feishu (Lark) integrated with (GPT-4 + GPT-4V + DALL·E-3 + Whisper) delivers an extraordinary work experience.
 - [chatgpt-telegram](https://github.com/m1guelpf/chatgpt-telegram): Run your own GPTChat Telegram bot, with a single command.
 
 ### SDKs
