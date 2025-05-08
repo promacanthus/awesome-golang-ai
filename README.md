@@ -83,7 +83,8 @@ Golang AI applications have incredible potential. With unique features like inex
 ## [Model Context Protocol](https://modelcontextprotocol.io/introduction)
 
 - [mcp-go](https://github.com/mark3labs/mcp-go): A Go implementation of the Model Context Protocol (MCP), enabling seamless integration between LLM applications and external data sources and tools.
-- [mcp-golang](https://github.com/metoro-io/mcp-golang): Write Model Context Protocol servers in few lines of go code. 
+- [mcp-golang](https://github.com/metoro-io/mcp-golang): Write Model Context Protocol servers in few lines of go code.
+- [gateway](https://github.com/centralmind/gateway): Universal MCP-Server for your Databases optimized for LLMs and AI-Agents.
   
 ## Large Language Model
 
@@ -99,8 +100,10 @@ Golang AI applications have incredible potential. With unique features like inex
 ### SDKs
 
 - [openai-go](https://github.com/openai/openai-go): The official Go library for the OpenAI API.
+- [go-openai](https://github.com/sashabaranov/go-openai): OpenAI ChatGPT, GPT-3, GPT-4, DALL·E, Whisper API wrapper for Go.
 - [generative-ai-go](https://github.com/google/generative-ai-go): Go SDK for Google Generative AI.
 - [anthropic-sdk-go](https://github.com/anthropics/anthropic-sdk-go): Access to Anthropic's safety-first language model APIs via Go.
+- [go-anthropic](https://github.com/liushuangls/go-anthropic): Anthropic Claude API wrapper for Go.
 - [deepseek-go](https://github.com/cohesion-org/deepseek-go): A Deepseek client written for Go supporting R-1, Chat V3, and Coder. Also supports external providers like Azure, OpenRouter and Local Ollama.
 
 ### DevTools
@@ -114,6 +117,10 @@ Golang AI applications have incredible potential. With unique features like inex
 - [eino](https://github.com/cloudwego/eino): The ultimate LLM/AI application development framework in Golang.
 - [fabric](https://github.com/danielmiessler/fabric): fabric is an open-source framework for augmenting humans using AI. It provides a modular framework for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.
 - [genkit](https://github.com/firebase/genkit): An open source framework for building AI-powered apps with familiar code-centric patterns. Genkit makes it easy to develop, integrate, and test AI features with observability and evaluations. Genkit works with various models and platforms.
+- [swarmgo](https://github.com/prathyushnallamothu/swarmgo): SwarmGo (agents-sdk-go) is a Go package that allows you to create AI agents capable of interacting, coordinating, and executing tasks.
+- [orra](https://github.com/orra-dev/orra): The orra-dev/orra project offers resilience for AI agent workflows.
+- [core](https://github.com/agent-api/core): A fast, agnostic, and powerful Go AI framework for one-shot workflows, building autonomous agents, and working with LLM providers.
+- [gollm](https://github.com/teilomillet/gollm): Unified Go interface for Language Model (LLM) providers. Simplifies LLM integration with flexible prompt management and common task functions.
 
 ### Retrieval-Augmented Generation
 
@@ -140,6 +147,7 @@ Golang AI applications have incredible potential. With unique features like inex
 - [hep](https://github.com/go-hep/hep): hep is the mono repository holding all of go-hep.org/x/hep packages and tools.
 - [hector](https://github.com/xlvector/hector): Golang machine learning lib.
 - [sklearn](https://github.com/pa-m/sklearn): bits of sklearn ported to Go.
+- [tokenizer](https://github.com/sugarme/tokenizer): NLP tokenizers written in Go language.
 
 ## Neural Networks
 
