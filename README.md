@@ -122,9 +122,6 @@ Golang AI applications have incredible potential. With unique features like inex
 - [core](https://github.com/agent-api/core): A fast, agnostic, and powerful Go AI framework for one-shot workflows, building autonomous agents, and working with LLM providers.
 - [gollm](https://github.com/teilomillet/gollm): Unified Go interface for Language Model (LLM) providers. Simplifies LLM integration with flexible prompt management and common task functions.
 
-### Retrieval-Augmented Generation
-
-
 ### Vector Database
 
 - [milvus](https://github.com/milvus-io/milvus): Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search.
@@ -134,6 +131,11 @@ Golang AI applications have incredible potential. With unique features like inex
 ### Pipeline and Data Version
 
 - [pachyderm](https://github.com/pachyderm/pachyderm): Data-Centric Pipelines and Data Versioning.
+
+## Embedding Benchmark
+
+- [MTEB](https://github.com/embeddings-benchmark/mteb): MTEB (Massive Text Embedding Benchmark) is an open-source benchmarking framework for evaluating and comparing text embedding models across 8 tasks (e.g., classification, retrieval, clustering) using 58 datasets in 112 languages, providing standardized performance metrics for model selection.
+- [BRIGHT](https://github.com/xlang-ai/BRIGHT): BBRIGHT is a realistic, challenging benchmark for reasoning-intensive retrieval, featuring 12 diverse datasets (math, code, biology, etc.) to evaluate retrieval models across complex, context-rich queries requiring logical inference.
 
 ## General Machine Learning libraries
 
