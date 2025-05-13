@@ -174,7 +174,7 @@ Golang AI applications have incredible potential. With unique features like inex
 
 ## Decision Trees
 
-- [CloudForest](https://github.com/ryanbressler/CloudForest)
+- [CloudForest](https://github.com/ryanbressler/CloudForest): CloudForest is a fast, flexible Go library for multi-threaded decision tree ensembles (Random Forest, Gradient Boosting, etc.) designed for high-dimensional heterogeneous data with missing values, emphasizing speed and robustness for real-world machine learning tasks.
 ## Regression
 
 - [regression](https://github.com/sajari/regression): Multivariable regression library in Go.
