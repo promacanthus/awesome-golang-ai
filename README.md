@@ -56,6 +56,7 @@ Golang AI applications have incredible potential. With unique features like inex
 ### Tool Use
 
 - [BFCL](https://github.com/ShishirPatil/gorilla/tree/main/berkeley-function-call-leaderboard): Training and Evaluating LLMs for Function Calls (Tool Calls).
+- [gorilla](https://github.com/ShishirPatil/gorilla): Training and Evaluating LLMs for Function Calls (Tool Calls).
 - [T-Eval](https://github.com/open-compass/T-Eval): [ACL2024] T-Eval: Evaluating Tool Utilization Capability of Large Language Models Step by Step.
 - [WildBench](https://github.com/allenai/WildBench): Benchmarking LLMs with Challenging Tasks from Real Users.
 
