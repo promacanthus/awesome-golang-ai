@@ -7,13 +7,14 @@ Golang AI applications have incredible potential. With unique features like inex
 - [ADeLe](https://kinds-of-intelligence-cfi.github.io/ADELE/): ADeLe v1.0 is a comprehensive AI evaluation framework that combines explanatory analysis and predictive modeling capabilities to systematically assess AI system performance across multiple dimensions.
 - [SWELancer](https://github.com/openai/SWELancer-Benchmark): The **SWE-Lancer-Benchmark** is designed to evaluate the capabilities of frontier LLMs in solving real-world freelance software engineering tasks, exploring their potential to generate economic value through complex software development scenarios.
 
+### Real World Challenge
+
+- [RPBench-Auto](https://github.com/boson-ai/RPBench-Auto): An automated pipeline for evaluating LLMs for role-playing.
+- [SpreadsheetBench](https://github.com/RUCKBReasoning/SpreadsheetBench): Towards Challenging Real World Spreadsheet Manipulation.
+
 ### Text-to-Speech(TTS)
 
 - [emergenttts-eval-public](https://github.com/boson-ai/emergenttts-eval-public): Benchmark for evaluating TTS models on complex prosodic, expressiveness, and linguistic challenges.
-
-### Role Playing
-
-- [RPBench-Auto](https://github.com/boson-ai/RPBench-Auto): An automated pipeline for evaluating LLMs for role-playing.
 
 ### English
 
