@@ -99,7 +99,7 @@ Golang AI applications have incredible potential. With unique features like inex
 - [mcp-go](https://github.com/mark3labs/mcp-go): A Go implementation of the Model Context Protocol (MCP), enabling seamless integration between LLM applications and external data sources and tools.
 - [mcp-golang](https://github.com/metoro-io/mcp-golang): Write Model Context Protocol servers in few lines of go code.
 - [gateway](https://github.com/centralmind/gateway): Universal MCP-Server for your Databases optimized for LLMs and AI-Agents.
-  
+
 ## Large Language Model
 
 ### GPT
@@ -110,6 +110,10 @@ Golang AI applications have incredible potential. With unique features like inex
 
 - [feishu-openai](https://github.com/ConnectAI-E/feishu-openai): Feishu (Lark) integrated with (GPT-4 + GPT-4V + DALL·E-3 + Whisper) delivers an extraordinary work experience.
 - [chatgpt-telegram](https://github.com/m1guelpf/chatgpt-telegram): Run your own GPTChat Telegram bot, with a single command.
+
+### Agent
+
+- [code-editing-agent](https://github.com/promacanthus/code-editing-agent): A Go-based AI agent that edits code using the DeepSeek model, offering a clear example of how AI agents work.
 
 ### SDKs
 
