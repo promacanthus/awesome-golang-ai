@@ -1,5 +1,10 @@
 # Awesome Golang.ai
 
+[![GitHub stars](https://img.shields.io/github/stars/promacanthus/awesome-golang-ai?style=social)](https://github.com/promacanthus/awesome-golang-ai)
+[![GitHub forks](https://img.shields.io/github/forks/promacanthus/awesome-golang-ai?style=social)](https://github.com/promacanthus/awesome-golang-ai)
+[![License](https://img.shields.io/github/license/promacanthus/awesome-golang-ai)](LICENSE)
+[![GitHub last commit](https://img.shields.io/github/last-commit/promacanthus/awesome-golang-ai)](https://github.com/promacanthus/awesome-golang-ai/commits/main)
+
 Golang AI applications have incredible potential. With unique features like inexplicable speed, easy debugging, concurrency, and excellent libraries for ML, deep learning, and reinforcement learning.
 
 ## Benchmark
