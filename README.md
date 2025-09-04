@@ -5,6 +5,13 @@
 [![License](https://img.shields.io/github/license/promacanthus/awesome-golang-ai)](LICENSE)
 [![GitHub last commit](https://img.shields.io/github/last-commit/promacanthus/awesome-golang-ai)](https://github.com/promacanthus/awesome-golang-ai/commits/main)
 
+---
+
+**Language** | **语言**  
+[English](README.md) | [中文](README-zh.md)
+
+---
+
 ## Overview
 
 > For a quick overview, please refer to [Overview.md](Overview.md).
