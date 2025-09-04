@@ -19,13 +19,14 @@ The repository is structured into well-defined categories such as benchmarks, la
 
 The awesome-golang-ai list covers a broad spectrum of AI and ML domains, with a strong emphasis on practical tools and evaluation frameworks. Key categories include:
 
-- **Benchmarks**: Comprehensive evaluation suites for assessing LLM capabilities across various domains such as code generation, mathematical reasoning, multilingual understanding, and real-world software engineering tasks.
-- **Large Language Models (LLMs)**: Resources related to LLMs, including SDKs for interacting with major AI platforms (OpenAI, Google, Anthropic), development tools like Ollama for local model execution, agent frameworks, and Go-based implementations of transformer models.
-- **RAG (Retrieval-Augmented Generation)**: Tools for building RAG pipelines, including document parsers for converting PDFs and office files to structured formats, embedding models, and vector databases like Milvus and Weaviate for efficient similarity search.
-- **General Machine Learning Libraries**: Foundational ML libraries in Go that support tasks such as regression, classification, clustering, and data manipulation, including libraries like Gorgonia, Gonum, and Golearn.
-- **Neural Networks and Deep Learning**: Specialized libraries for constructing and training neural networks, including implementations of feedforward networks, self-organizing maps, and recurrent architectures.
-- **Specialized Domains**: Resources for linear algebra, probability distributions, evolutionary algorithms, graph processing, anomaly detection, and recommendation systems.
-- **Educational Materials**: Books, tutorials, and datasets to support learning and experimentation in AI with Go.
+- **[Benchmarks](docs/01-AI%20and%20ML%20Benchmarks.md)**: Comprehensive evaluation suites for assessing LLM capabilities across various domains such as code generation, mathematical reasoning, multilingual understanding, and real-world software engineering tasks.
+- **[Model Context Protocol Implementations](docs/02-Model%20Context%20Protocol%20Implementations.md)**: Resources related to MCP, including SDKs for interacting with major AI platforms (OpenAI, Google, Anthropic), development tools like Ollama for local model execution, agent frameworks, and Go-based implementations of transformer models.
+- **[Large Language Models (LLMs)](docs/03-Large%20Language%20Model%20Tools.md)**: Resources related to LLMs, including SDKs for interacting with major AI platforms (OpenAI, Google, Anthropic), development tools like Ollama for local model execution, agent frameworks, and Go-based implementations of transformer models.
+- **[RAG (Retrieval-Augmented Generation)](docs/04-RAG%20Components.md)**: Tools for building RAG pipelines, including document parsers for converting PDFs and office files to structured formats, embedding models, and vector databases like Milvus and Weaviate for efficient similarity search.
+- **[General Machine Learning Libraries](docs/05-Machine%20Learning%20Libraries.md)**: Foundational ML libraries in Go that support tasks such as regression, classification, clustering, and data manipulation, including libraries like Gorgonia, Gonum, and Golearn.
+- **[Neural Networks and Deep Learning](docs/05-Machine%20Learning%20Libraries.md)**: Specialized libraries for constructing and training neural networks, including implementations of feedforward networks, self-organizing maps, and recurrent architectures.
+- **[Specialized Domains](docs/docs/05-Machine%20Learning%20Libraries.md)**: Resources for linear algebra, probability distributions, evolutionary algorithms, graph processing, anomaly detection, and recommendation systems.
+- **[Educational Materials](docs/06-Educational%20Resources.md)**: Books, tutorials, and datasets to support learning and experimentation in AI with Go.
 
 The list also includes emerging standards like the **Model Context Protocol (MCP)**, which enables integration between LLM applications and external tools, highlighting the project’s focus on practical, interoperable AI development.
 
