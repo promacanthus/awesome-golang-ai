@@ -1,275 +1,80 @@
-# Awesome Golang.ai
+# Awesome Golang.AI
 
 [![GitHub stars](https://img.shields.io/github/stars/promacanthus/awesome-golang-ai?style=social)](https://github.com/promacanthus/awesome-golang-ai)
 [![GitHub forks](https://img.shields.io/github/forks/promacanthus/awesome-golang-ai?style=social)](https://github.com/promacanthus/awesome-golang-ai)
 [![License](https://img.shields.io/github/license/promacanthus/awesome-golang-ai)](LICENSE)
 [![GitHub last commit](https://img.shields.io/github/last-commit/promacanthus/awesome-golang-ai)](https://github.com/promacanthus/awesome-golang-ai/commits/main)
 
-Golang AI applications have incredible potential. With unique features like inexplicable speed, easy debugging, concurrency, and excellent libraries for ML, deep learning, and reinforcement learning.
+## Overview
 
-## Benchmark
+> For a quick overview, please refer to [Overview.md](Overview.md).
 
-- [ADeLe](https://kinds-of-intelligence-cfi.github.io/ADELE/): ADeLe v1.0 is a comprehensive AI evaluation framework that combines explanatory analysis and predictive modeling capabilities to systematically assess AI system performance across multiple dimensions.
-- [SWELancer](https://github.com/openai/SWELancer-Benchmark): The **SWE-Lancer-Benchmark** is designed to evaluate the capabilities of frontier LLMs in solving real-world freelance software engineering tasks, exploring their potential to generate economic value through complex software development scenarios.
+The repository is a curated list of resources focused on artificial intelligence (AI) and machine learning (ML) development using the Go programming language. It follows the popular "awesome list" format, which aggregates high-quality, community-vetted tools, libraries, frameworks, benchmarks, and educational materials into a single, organized reference.
 
-### Real World Challenge
+This repository does not contain executable code or software projects. Instead, it serves as a discovery and reference tool for developers, researchers, and engineers interested in leveraging Go for AI-related tasks. The list emphasizes Go's strengths in performance, concurrency, and system-level programming, making it particularly valuable for building scalable, production-grade AI applications.
 
-- [RPBench-Auto](https://github.com/boson-ai/RPBench-Auto): An automated pipeline for evaluating LLMs for role-playing.
-- [SpreadsheetBench](https://github.com/RUCKBReasoning/SpreadsheetBench): Towards Challenging Real World Spreadsheet Manipulation.
+The repository is structured into well-defined categories such as benchmarks, large language model (LLM) tools, Retrieval-Augmented Generation (RAG) components, general machine learning libraries, neural networks, and educational resources. Each entry includes a link to the resource and a brief description of its functionality or purpose.
 
-### Text-to-Speech(TTS)
+## Scope of the Collection
 
-- [emergenttts-eval-public](https://github.com/boson-ai/emergenttts-eval-public): Benchmark for evaluating TTS models on complex prosodic, expressiveness, and linguistic challenges.
+The awesome-golang-ai list covers a broad spectrum of AI and ML domains, with a strong emphasis on practical tools and evaluation frameworks. Key categories include:
 
-### English
+- **Benchmarks**: Comprehensive evaluation suites for assessing LLM capabilities across various domains such as code generation, mathematical reasoning, multilingual understanding, and real-world software engineering tasks.
+- **Large Language Models (LLMs)**: Resources related to LLMs, including SDKs for interacting with major AI platforms (OpenAI, Google, Anthropic), development tools like Ollama for local model execution, agent frameworks, and Go-based implementations of transformer models.
+- **RAG (Retrieval-Augmented Generation)**: Tools for building RAG pipelines, including document parsers for converting PDFs and office files to structured formats, embedding models, and vector databases like Milvus and Weaviate for efficient similarity search.
+- **General Machine Learning Libraries**: Foundational ML libraries in Go that support tasks such as regression, classification, clustering, and data manipulation, including libraries like Gorgonia, Gonum, and Golearn.
+- **Neural Networks and Deep Learning**: Specialized libraries for constructing and training neural networks, including implementations of feedforward networks, self-organizing maps, and recurrent architectures.
+- **Specialized Domains**: Resources for linear algebra, probability distributions, evolutionary algorithms, graph processing, anomaly detection, and recommendation systems.
+- **Educational Materials**: Books, tutorials, and datasets to support learning and experimentation in AI with Go.
 
-- [ARC-AGI](https://github.com/fchollet/ARC-AGI): The Abstraction and Reasoning Corpus.
-- [ARC-Challenge](https://github.com/allenai/ARC-Solvers?tab=readme-ov-file): AI2 Reasoning Challenge (ARC) Set.
-- [BBH](https://github.com/suzgunmirac/BIG-Bench-Hard): Challenging BIG-Bench Tasks and Whether Chain-of-Thought Can Solve Them.
-- [BIG-bench](https://github.com/google/BIG-bench): Beyond the Imitation Game collaborative benchmark for measuring and extrapolating the capabilities of language models.
-- [GPQA](https://github.com/idavidrein/gpqa): GPQA: A Graduate-Level Google-Proof Q&A Benchmark.
-- [HelloSwag](https://github.com/rowanz/hellaswag): HellaSwag: Can a Machine _Really_ Finish Your Sentence?
-- [IFEval](https://huggingface.co/datasets/google/IFEval): IFEval is designed to systematically evaluate the instruction-following capabilities of large language models by incorporating 25 verifiable instruction types (e.g., format constraints, keyword inclusion) and applying dual strict-loose metrics for automated, objective assessment of model compliance.
-- [LiveBench](https://github.com/LiveBench/LiveBench): A Challenging, Contamination-Free LLM Benchmark.
-- [MMLU](https://github.com/hendrycks/test): Measuring Massive Multitask Language Understanding ICLR 2021.
-- [MMLU-CF](https://github.com/microsoft/MMLU-CF): A Contamination-free Multi-task Language Understanding Benchmark.
-- [MMLU-Pro](https://github.com/TIGER-AI-Lab/MMLU-Pro): [NeurIPS 2024] A More Robust and Challenging Multi-Task Language Understanding Benchmark.
-- [MTEB](https://github.com/embeddings-benchmark/mteb): Massive Text Embedding Benchmark.
-- [PIQA](https://github.com/ybisk/ybisk.github.io/tree/master/piqa): PIQA is a dataset for commonsense reasoning, and was created to investigate the physical knowledge of existing models in NLP.
-- [WinoGrande](https://github.com/allenai/winogrande): An Adversarial Winograd Schema Challenge at Scale.
+The list also includes emerging standards like the **Model Context Protocol (MCP)**, which enables integration between LLM applications and external tools, highlighting the project’s focus on practical, interoperable AI development.
 
-### Chinese
+## Intended Audience
 
-- [C-Eval](https://github.com/hkust-nlp/ceval): [NeurIPS 2023] A Chinese evaluation suite for foundation models.
-- [CMMLU](https://github.com/haonan-li/CMMLU): Measuring massive multitask language understanding in Chinese.
-- [C-SimpleQA](https://github.com/OpenStellarTeam/ChineseSimpleQA): A Chinese Factuality Evaluation for Large Language Models.
+The primary audience for this repository includes:
 
-### Math
+- **Go Developers** exploring AI/ML integration into their applications
+- **Machine Learning Engineers** seeking performant, concurrent backends for AI systems
+- **Researchers** evaluating LLMs or building experimental pipelines in Go
+- **DevOps and MLOps Engineers** interested in deploying AI models in production environments where Go’s efficiency and reliability are advantageous
+- **Students and Learners** who want to study AI concepts through Go implementations
 
-- [AIME](https://github.com/eth-sri/matharena): Evaluation of LLMs on latest math competitions.
-- [grade-school-math](https://github.com/openai/grade-school-math): The GSM8K dataset contains 8.5K grade school math word problems designed to evaluate multi-step reasoning capabilities in language models, revealing that even large transformers struggle with these conceptually simple yet procedurally complex tasks.
-- [MATH](https://github.com/hendrycks/math): The MATH Dataset for NeurIPS 2021, is a benchmark for evaluating mathematical problem-solving capabilities, offering dataset loaders, evaluation code, and pre-training data.
-- [MathVista](https://github.com/lupantech/MathVista): MathVista: data, code, and evaluation for Mathematical Reasoning in Visual Contexts.
-- [Omni-MATH](https://github.com/KbsdJames/Omni-MATH): Omni-MATH is a comprehensive and challenging benchmark specifically designed to assess LLMs' mathematical reasoning at the Olympiad level.
-- [TAU-bench](https://github.com/sierra-research/tau-bench): TauBench is an open-source benchmark suite designed to evaluate the performance of large language models (LLMs) on complex reasoning tasks across multiple domains.
+The list is designed to be accessible to users with varying levels of technical expertise. While some entries assume familiarity with AI concepts, the structure and categorization allow beginners to explore resources progressively, from foundational libraries to advanced frameworks.
 
-### Code
+## Contribution Guidelines
 
-- [AIDER](https://github.com/Aider-AI/aider): The leaderboards page of aider presents a performance comparison of various LLMs in programming-related tasks, such as code writing and editing.
-- [BFCL](https://gorilla.cs.berkeley.edu/blogs/8_berkeley_function_calling_leaderboard.html): BFCL aims to provide a thorough study of the function-calling capability of different LLMs.
-- [BigCodeBench](https://github.com/bigcode-project/bigcodebench/): [ICLR'25] BigCodeBench: Benchmarking Code Generation Towards AGI.
-- [Code4Bench](https://github.com/code4bench/Code4Bench): A Mutildimensional Benchmark of Codeforces Data for Different Program Analysis Techniques.
-- [CRUXEval](https://github.com/facebookresearch/cruxeval): Code Reasoning, Understanding, and Execution Evaluation.
-- [HumanEval](https://github.com/openai/human-eval): Code for the paper "Evaluating Large Language Models Trained on Code".
-- [LiveCodeBench](https://github.com/LiveCodeBench/LiveCodeBench): Holistic and Contamination Free Evaluation of Large Language Models for Code.
-- [MBPP](https://github.com/google-research/google-research/tree/master/mbpp): The benchmark consists of around 1,000 crowd-sourced Python programming problems, designed to be solvable by entry level programmers, covering programming fundamentals, standard library functionality, and so on.
-- [MultiPL-E](https://github.com/nuprl/MultiPL-E): A multi-programming language benchmark for LLMs.
-- [multi-swe-bench](https://github.com/multi-swe-bench/multi-swe-bench): The Multi-SWE-bench project, developed by ByteDance's Doubao team, is the first open-source multilingual dataset for evaluating and enhancing large language models' ability to automatically debug code, covering 7 major programming languages (e.g., Java, C++, JavaScript) with real-world GitHub issues to benchmark "full-stack engineering" capabilities.
-- [SWE-bench](https://github.com/SWE-bench/SWE-bench): SWE-bench is a benchmark suite designed to evaluate the capabilities of large language models (LLMs) in solving real-world software engineering tasks, focusing on actual software bug-fixing challenges extracted from open-source projects.
+Although the repository does not explicitly include a `CONTRIBUTING.md` file or detailed contribution instructions within the `README`, it follows standard practices for awesome lists. Users are encouraged to contribute by submitting pull requests to add new, relevant resources or improve existing entries.
 
-### Tool Use
+Ideal contributions include:
 
-- [BFCL](https://github.com/ShishirPatil/gorilla/tree/main/berkeley-function-call-leaderboard): Training and Evaluating LLMs for Function Calls (Tool Calls).
-- [T-Eval](https://github.com/open-compass/T-Eval): [ACL2024] T-Eval: Evaluating Tool Utilization Capability of Large Language Models Step by Step.
-- [WildBench](https://github.com/allenai/WildBench): Benchmarking LLMs with Challenging Tasks from Real Users.
+- High-quality, actively maintained projects
+- Well-documented libraries and tools
+- Benchmarks with published results or academic backing
+- Educational resources with practical value
 
-### Open ended
+All submissions should be directly relevant to AI/ML development in Go and must provide clear descriptions and working links. The absence of formal guidelines suggests that contributors should follow the existing format and structure of the list when proposing additions.
 
-- [Arena-Hard](https://github.com/lmarena/arena-hard-auto): Arena-Hard-Auto: An automatic LLM benchmark.
+## How to Use This List
 
-### Safety
+Users can leverage the awesome-golang-ai list in several ways:
 
-### False refusal
+- **Discovery**: Browse categories to find tools relevant to specific needs, such as vector databases for RAG or SDKs for calling LLM APIs.
+- **Evaluation**: Use benchmark entries to compare model performance or assess capabilities in areas like code generation or mathematical reasoning.
+- **Learning**: Access books and tutorials to build foundational knowledge in AI with Go.
+- **Development**: Integrate recommended libraries and frameworks into projects to accelerate AI feature implementation.
+- **Research**: Utilize standardized benchmarks and datasets to conduct reproducible experiments.
 
-- [Xstest](https://github.com/paul-rottger/xstest): Röttger et al. (NAACL 2024): "XSTest: A Test Suite for Identifying Exaggerated Safety Behaviours in Large Language Models".
+The hierarchical structure allows users to quickly navigate from broad categories to specific tools, making it easy to locate resources without prior knowledge of the ecosystem.
 
-### Multi-modal
+## Value of Curation in the Go AI Ecosystem
 
-- [DPG-Bench](https://github.com/TencentQQGYLab/ELLA): The DPG benchmark tests a model’s ability to follow complex image generation prompts.
-- [geneval](https://github.com/djghosh13/geneval): GenEval: An object-focused framework for evaluating text-to-image alignment.
-- [LongVideoBench](https://github.com/longvideobench/LongVideoBench): [Neurips 24' D&B] Official Dataloader and Evaluation Scripts for LongVideoBench.
-- [MLVU](https://github.com/JUNJIE99/MLVU): Multi-task Long Video Understanding Benchmark.
-- [perception_test](https://github.com/google-deepmind/perception_test): A Diagnostic Benchmark for Multimodal Video Models is a multimodal benchmark designed to comprehensively evaluate the perception and reasoning skills of multimodal video models.
-- [TempCompass](https://github.com/llyx97/TempCompass): A benchmark to evaluate the temporal perception ability of Video LLMs.
-- [VBench](https://github.com/Vchitect/VBench): VBench is an open-source project aiming to build a comprehensive evaluation benchmark for video generation models.
-- [Video-MME](https://github.com/BradyFU/Video-MME): [CVPR 2025] Video-MME: The First-Ever Comprehensive Evaluation Benchmark of Multi-modal LLMs in Video Analysis.
+Curation plays a critical role in the Go AI ecosystem due to the relatively smaller number of AI-focused libraries compared to languages like Python. By aggregating scattered resources into a single, well-organized list, awesome-golang-ai lowers the barrier to entry for developers interested in using Go for AI.
 
-## [Model Context Protocol](https://modelcontextprotocol.io/introduction)
+It promotes best practices by highlighting mature, well-maintained projects and encourages community growth by showcasing innovative tools and research. The list also helps identify gaps in the ecosystem, guiding future development efforts.
 
-- [mcp-go](https://github.com/mark3labs/mcp-go): A Go implementation of the Model Context Protocol (MCP), enabling seamless integration between LLM applications and external data sources and tools.
-- [mcp-golang](https://github.com/metoro-io/mcp-golang): Write Model Context Protocol servers in few lines of go code.
-- [gateway](https://github.com/centralmind/gateway): Universal MCP-Server for your Databases optimized for LLMs and AI-Agents.
+Furthermore, as Go gains traction in backend AI services, microservices, and cloud-native applications, having a centralized reference ensures that developers can efficiently build robust, scalable AI systems without sacrificing performance or reliability.
 
-## Large Language Model
-
-### GPT
-
-- [gpt-go](https://github.com/zakirullin/gpt-go): Tiny GPT implemented from scratch in pure Go. Trained on Jules Verne books.
-
-### ChatGPT Apps
-
-- [feishu-openai](https://github.com/ConnectAI-E/feishu-openai): Feishu (Lark) integrated with (GPT-4 + GPT-4V + DALL·E-3 + Whisper) delivers an extraordinary work experience.
-- [chatgpt-telegram](https://github.com/m1guelpf/chatgpt-telegram): Run your own GPTChat Telegram bot, with a single command.
-
-### Agent
-
-- [code-editing-agent](https://github.com/promacanthus/code-editing-agent): A Go-based AI agent that edits code using the DeepSeek model, offering a clear example of how AI agents work.
-
-### SDKs
-
-- [openai-go](https://github.com/openai/openai-go): The official Go library for the OpenAI API.
-- [go-openai](https://github.com/sashabaranov/go-openai): OpenAI ChatGPT, GPT-3, GPT-4, DALL·E, Whisper API wrapper for Go.
-- [generative-ai-go](https://github.com/google/generative-ai-go): Go SDK for Google Generative AI.
-- [anthropic-sdk-go](https://github.com/anthropics/anthropic-sdk-go): Access to Anthropic's safety-first language model APIs via Go.
-- [go-anthropic](https://github.com/liushuangls/go-anthropic): Anthropic Claude API wrapper for Go.
-- [deepseek-go](https://github.com/cohesion-org/deepseek-go): A Deepseek client written for Go supporting R-1, Chat V3, and Coder. Also supports external providers like Azure, OpenRouter and Local Ollama.
-
-### DevTools
-
-- [ollama](https://github.com/ollama/ollama): Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 2, and other large language models.
-- [go-attention](https://github.com/takara-ai/go-attention): A full attention mechanism and transformer in pure go.
-- [langchaingo](https://github.com/tmc/langchaingo): LangChain for Go, the easiest way to write LLM-based programs in Go.
-- [gpt4all-bindings](https://github.com/nomic-ai/gpt4all/tree/41c9013fa46a194b3e4fee6ced1b9d1b65e177ac/gpt4all-bindings/golang): GPT4All Language Bindings provide cross-language interfaces to easily integrate and interact with GPT4All's local LLMs, simplifying model loading and inference for developers.
-- [go-openai](https://github.com/sashabaranov/go-openai): OpenAI ChatGPT, GPT-3, GPT-4, DALL·E, Whisper API wrapper for Go.
-- [llama.go](https://github.com/gotzmann/llama.go): llama.go is like llama.cpp in pure Golang.
-- [eino](https://github.com/cloudwego/eino): The ultimate LLM/AI application development framework in Golang.
-- [fabric](https://github.com/danielmiessler/fabric): fabric is an open-source framework for augmenting humans using AI. It provides a modular framework for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.
-- [genkit](https://github.com/firebase/genkit): An open source framework for building AI-powered apps with familiar code-centric patterns. Genkit makes it easy to develop, integrate, and test AI features with observability and evaluations. Genkit works with various models and platforms.
-- [swarmgo](https://github.com/prathyushnallamothu/swarmgo): SwarmGo (agents-sdk-go) is a Go package that allows you to create AI agents capable of interacting, coordinating, and executing tasks.
-- [orra](https://github.com/orra-dev/orra): The orra-dev/orra project offers resilience for AI agent workflows.
-- [core](https://github.com/agent-api/core): A fast, agnostic, and powerful Go AI framework for one-shot workflows, building autonomous agents, and working with LLM providers.
-- [gollm](https://github.com/teilomillet/gollm): Unified Go interface for Language Model (LLM) providers. Simplifies LLM integration with flexible prompt management and common task functions.
-
-## RAG (Retrieval Augmented Generation）
-
-### Document Parser
-
-- [markitdown](https://github.com/microsoft/markitdown): Python tool for converting files and office documents to Markdown.
-- [MinerU](https://github.com/opendatalab/MinerU): A high-quality tool for convert PDF to Markdown and JSON.
-- [docling](https://github.com/docling-project/docling): Get your documents ready for gen AI.
-- [marker](https://github.com/datalab-to/marker): Convert PDF to markdown + JSON quickly with high accuracy.
-
-### Pipeline and Data Version
-
-- [pachyderm](https://github.com/pachyderm/pachyderm): Data-Centric Pipelines and Data Versioning.
-
-### Embedding 
-
-#### Benchmark
-
-- [MTEB](https://github.com/embeddings-benchmark/mteb): MTEB (Massive Text Embedding Benchmark) is an open-source benchmarking framework for evaluating and comparing text embedding models across 8 tasks (e.g., classification, retrieval, clustering) using 58 datasets in 112 languages, providing standardized performance metrics for model selection.
-- [BRIGHT](https://github.com/xlang-ai/BRIGHT): BBRIGHT is a realistic, challenging benchmark for reasoning-intensive retrieval, featuring 12 diverse datasets (math, code, biology, etc.) to evaluate retrieval models across complex, context-rich queries requiring logical inference.
-
-### Vector Database
-
-> Indexer and Retriever.
-
-- [milvus](https://github.com/milvus-io/milvus): Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search.
-- [weaviate](https://github.com/weaviate/weaviate): Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​.
-- [tidb](https://github.com/pingcap/tidb): TiDB - the open-source, cloud-native, distributed SQL database designed for modern applications.
-
-## General Machine Learning libraries
-
-- [goml](https://github.com/cdipaolo/goml)：On-line Machine Learning in Go (and so much more).
-- [golearn](https://github.com/sjwhitworth/golearn): simple and customizable batteries included ML library in Go.
-- [gonum](https://github.com/gonum/gonum)：Gonum is a set of numeric libraries for the Go programming language. It contains libraries for matrices, statistics, optimization, and more.
-- [gorgonia](https://github.com/gorgonia/gorgonia): Gorgonia is a library that helps facilitate machine learning in Go.
-- [spago](https://github.com/nlpodyssey/spago): Self-contained Machine Learning and Natural Language Processing library in Go.
-- [goro](https://github.com/aunum/goro): A High-level Machine Learning Library for Go.
-- [goga](https://github.com/tomcraven/goga): Golang Genetic Algorithm.
-- [hep](https://github.com/go-hep/hep): hep is the mono repository holding all of go-hep.org/x/hep packages and tools.
-- [hector](https://github.com/xlvector/hector): Golang machine learning lib.
-- [sklearn](https://github.com/pa-m/sklearn): bits of sklearn ported to Go.
-- [tokenizer](https://github.com/sugarme/tokenizer): NLP tokenizers written in Go language.
-
-## Neural Networks
-
-- [gobrain](https://github.com/goml/gobrain): Neural Networks written in go.
-- [go-neural](https://github.com/NOX73/go-neural): Neural network implementation on golang.
-- [go-deep](https://github.com/patrikeh/go-deep): Artificial Neural Network.
-- [olivia](https://github.com/olivia-ai/olivia): Your new best friend powered by an artificial neural network.
-- [gomid](https://github.com/surenderthakran/gomind): A simplistic Neural Network Library in Go.
-- [neurgo](https://github.com/tleyden/neurgo): Neural Network toolkit in Go.
-- [gonn](https://github.com/fxsjy/gonn): GoNN is an implementation of Neural Network in Go Language, which includes BPNN, RBF, PCN.
-- [gosom](https://github.com/milosgajdos/gosom): Self-organizing maps in Go.
-- [go-perceptron-go](https://github.com/made2591/go-perceptron-go): A single / multi layer / recurrent neural network written in Golang.
-
-## Linear Algebra
-
-- [gosl](https://github.com/cpmech/gosl): Linear algebra, eigenvalues, FFT, Bessel, elliptic, orthogonal polys, geometry, NURBS, numerical quadrature, 3D transfinite interpolation, random numbers, Mersenne twister, probability distributions, optimisation, differential equations.
-- [sparse](https://github.com/james-bowman/sparse): Sparse matrix formats for linear algebra supporting scientific and machine learning applications.
-
-## Probability Distributions
-
-- [godist](https://github.com/e-dard/godist): Probability distributions and associated methods in Go.
-
-## Decision Trees
-
-- [CloudForest](https://github.com/ryanbressler/CloudForest): CloudForest is a fast, flexible Go library for multi-threaded decision tree ensembles (Random Forest, Gradient Boosting, etc.) designed for high-dimensional heterogeneous data with missing values, emphasizing speed and robustness for real-world machine learning tasks.
-## Regression
-
-- [regression](https://github.com/sajari/regression): Multivariable regression library in Go.
-- [ridge](https://github.com/promacanthus/ridge): Ridge regression in Go.
-
-## Bayesian Classifiers
-
-- [bayesian](https://github.com/jbrukh/bayesian): Naive Bayesian Classification for Golang.
-- [multibayes](https://github.com/lytics/multibayes): Multiclass Naive Bayesian Classification.
-
-## Recommendation Engines
-
-- [regommend](https://github.com/muesli/regommend): Recommendation engine for Go.
-- [gorse](https://github.com/zhenghaoz/gorse): Go Recommender System Engine.
-- [too](https://github.com/FurqanSoftware/too): Simple recommendation engine implementation built on top of Redis.
-
-## Evolutionary Algorithms
-
-- [eaopt](https://github.com/MaxHalford/eaopt): Evolutionary optimization library for Go (genetic algorithm, partical swarm optimization, differential evolution).
-- [evo](https://github.com/cbarrick/evo): Evolutionary Algorithms in Go.
-
-## Graph
-
-- [gogl](https://github.com/sdboyer/gogl): A graph library in Go.
-
-## Cluster
-
-- [gokmeans](https://github.com/mash/gokmeans): K-means algorithm implemented in Go (golang).
-- [kmeans](https://github.com/muesli/kmeans): k-means clustering algorithm implementation written in Go.
-
-## Anomaly Detection
-
-- [morgoth](https://github.com/nathanielc/morgoth): Metric anomaly detection.
-- [anomalyzer](https://github.com/lytics/anomalyzer): Probabilistic anomaly detection for time series data.
-- [goanomaly](https://github.com/sec51/goanomaly): Golang library for anomaly detection. Uses the Gaussian distribution and the probability density formula.
-
-## DataFrames
-
-- [gota](https://github.com/go-gota/gota): Gota: DataFrames and data wrangling in Go.
-- [dataframe-go](https://github.com/rocketlaunchr/dataframe-go): DataFrames for Go: For statistics, machine-learning, and data manipulation/exploration.
-- [qframe](https://github.com/tobgu/qframe): Immutable data frame for Go.
-
-## Explaining Model
-
-- [lime](https://github.com/marcotcr/lime): Lime: Explaining the predictions of any machine learning classifier.
-
-# Books
-
-- [Machine Learning With go](https://github.com/promacanthus/awesome-golang-ai/blob/main/books/Machine%20Learning%20with%20Go.pdf)
-- [Machine-Learning-With-Go](https://github.com/promacanthus/Machine-Learning-With-Go): example code.
-- [机器学习：Go语言实现](https://github.com/promacanthus/awesome-golang-ai/blob/main/books/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%20Go%E8%AF%AD%E8%A8%80%E5%AE%9E%E7%8E%B0.pdf)
-- [GO语言机器学习实战](https://book.douban.com/subject/35037170/)
-
-# Basic Knowledge
-
-## Reinforcement Learning
-
-- [Hands-on Reinforcement Learning](https://hrl.boyuai.com/)
-
-# Datasets
-
-- [LendingClub]()
-
-# Star History
+## Star History
 
 <!-- Copy-paste in your Readme.md file -->
 
@@ -282,7 +87,7 @@ Golang AI applications have incredible potential. With unique features like inex
 
 <!-- Made with [OSS Insight](https://ossinsight.io/) -->
 
-# Star Geographical Distribution
+## Star Geographical Distribution
 
 <!-- Copy-paste in your Readme.md file -->
 
