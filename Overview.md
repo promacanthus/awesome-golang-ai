@@ -91,9 +91,10 @@ Golang AI applications have incredible potential. With unique features like inex
 
 ## [Model Context Protocol](https://modelcontextprotocol.io/introduction)
 
+- [gateway](https://github.com/centralmind/gateway): Universal MCP-Server for your Databases optimized for LLMs and AI-Agents.
 - [mcp-go](https://github.com/mark3labs/mcp-go): A Go implementation of the Model Context Protocol (MCP), enabling seamless integration between LLM applications and external data sources and tools.
 - [mcp-golang](https://github.com/metoro-io/mcp-golang): Write Model Context Protocol servers in few lines of go code.
-- [gateway](https://github.com/centralmind/gateway): Universal MCP-Server for your Databases optimized for LLMs and AI-Agents.
+- [registry](https://github.com/modelcontextprotocol/registry): A community driven registry service for Model Context Protocol (MCP) servers.
 
 ## Large Language Model
 
@@ -115,15 +116,19 @@ Golang AI applications have incredible potential. With unique features like inex
 
 ### SDKs
 
-- [openai-go](https://github.com/openai/openai-go): The official Go library for the OpenAI API.
-- [go-openai](https://github.com/sashabaranov/go-openai): OpenAI ChatGPT, GPT-3, GPT-4, DALL·E, Whisper API wrapper for Go.
-- [generative-ai-go](https://github.com/google/generative-ai-go): Go SDK for Google Generative AI.
 - [anthropic-sdk-go](https://github.com/anthropics/anthropic-sdk-go): Access to Anthropic's safety-first language model APIs via Go.
-- [go-anthropic](https://github.com/liushuangls/go-anthropic): Anthropic Claude API wrapper for Go.
+- [cohere-go](https://github.com/cohere-ai/cohere-go): Go Library for Accessing the Cohere API.
 - [deepseek-go](https://github.com/cohesion-org/deepseek-go): A Deepseek client written for Go supporting R-1, Chat V3, and Coder. Also supports external providers like Azure, OpenRouter and Local Ollama.
+- [go-anthropic](https://github.com/liushuangls/go-anthropic): Anthropic Claude API wrapper for Go.
+- [go-openai](https://github.com/sashabaranov/go-openai): OpenAI ChatGPT, GPT-3, GPT-4, DALL·E, Whisper API wrapper for Go.
+- [go-genai](https://github.com/googleapis/go-genai): Google Gen AI Go SDK provides an interface for developers to integrate Google's generative models into their Go applications.
+- [generative-ai-go](https://github.com/google/generative-ai-go): Go SDK for Google Generative AI.
+- [openai-go](https://github.com/openai/openai-go): The official Go library for the OpenAI API.
+- [volcengine-go-sdk](https://github.com/volcengine/volcengine-go-sdk): The Volcengine Go SDK is the official Go language SDK for ByteDance's Volcengine cloud computing platform, providing developers with programmatic access to various cloud services through a standardized API interface.
 
 ### DevTools
 
+- [LocalAI](https://github.com/mudler/LocalAI): 🤖 The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first. Drop-in replacement for OpenAI, running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more models architectures. Features: Generate Text, Audio, Video, Images, Voice Cloning, Distributed, P2P inference.
 - [ollama](https://github.com/ollama/ollama): Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 2, and other large language models.
 - [go-attention](https://github.com/takara-ai/go-attention): A full attention mechanism and transformer in pure go.
 - [langchaingo](https://github.com/tmc/langchaingo): LangChain for Go, the easiest way to write LLM-based programs in Go.
@@ -164,9 +169,13 @@ Golang AI applications have incredible potential. With unique features like inex
 
 > Indexer and Retriever.
 
+- [chroma](https://github.com/chroma-core/chroma): Open-source search and retrieval database for AI applications.
+- [cli](https://github.com/pinecone-io/cli): Work seamlessly with Pinecone from the command line.
 - [milvus](https://github.com/milvus-io/milvus): Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search.
-- [weaviate](https://github.com/weaviate/weaviate): Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​.
+- [pinecone](https://github.com/pinecone-io/go-pinecone): Pinecone.io Golang Client.
+- [qdrant](https://github.com/qdrant/go-client): Go client for Qdrant vector search engine.
 - [tidb](https://github.com/pingcap/tidb): TiDB - the open-source, cloud-native, distributed SQL database designed for modern applications.
+- [weaviate](https://github.com/weaviate/weaviate): Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​.
 
 ## General Machine Learning libraries
 
