@@ -86,9 +86,22 @@ Golang AI applications have incredible potential. With unique features like inex
 - [WildBench](https://github.com/allenai/WildBench): Benchmarking LLMs with Challenging Tasks from Real Users.
 - [τ²-Bench](https://github.com/sierra-research/tau2-bench): τ²-Bench: Evaluating Conversational Agents in a Dual-Control Environment.
 
+### Computer Use
+
+- [OSWorld](https://github.com/xlang-ai/OSWorld): OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments.
+
 ### Open ended
 
 - [Arena-Hard](https://github.com/lmarena/arena-hard-auto): Arena-Hard-Auto: An automatic LLM benchmark.
+
+### Visual Reasoning
+
+- [MMMU](https://github.com/MMMU-Benchmark/MMMU): MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI.
+
+### Novel Problem Solving
+
+- [ARC-AGI](https://github.com/fchollet/arc-agi): The Abstraction and Reasoning Corpus.
+- [ARC-AGI-2](https://github.com/arcprize/ARC-AGI-2): ARC can be seen as a general artificial intelligence benchmark, as a program synthesis benchmark, or as a psychometric intelligence test.
 
 ### Safety
 
