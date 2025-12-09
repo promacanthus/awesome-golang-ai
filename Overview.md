@@ -44,8 +44,10 @@ Golang AI applications have incredible potential. With unique features like inex
 - [AIME](https://github.com/eth-sri/matharena): Evaluation of LLMs on latest math competitions.
 - [grade-school-math](https://github.com/openai/grade-school-math): The GSM8K dataset contains 8.5K grade school math word problems designed to evaluate multi-step reasoning capabilities in language models, revealing that even large transformers struggle with these conceptually simple yet procedurally complex tasks.
 - [MATH](https://github.com/hendrycks/math): The MATH Dataset for NeurIPS 2021, is a benchmark for evaluating mathematical problem-solving capabilities, offering dataset loaders, evaluation code, and pre-training data.
+- [matharena](https://github.com/eth-sri/matharena?utm_source=chatgpt.com): Evaluation of LLMs on latest math competitions.
 - [MathVista](https://github.com/lupantech/MathVista): MathVista: data, code, and evaluation for Mathematical Reasoning in Visual Contexts.
 - [Omni-MATH](https://github.com/KbsdJames/Omni-MATH): Omni-MATH is a comprehensive and challenging benchmark specifically designed to assess LLMs' mathematical reasoning at the Olympiad level.
+- [imobench](https://github.com/google-deepmind/superhuman/tree/main/imobench): The IMO-Bench dataset is a gold-standard suite of rigorous mathematical reasoning benchmarks derived from International Mathematical Olympiad problems, used to test the limits of AI's ability to perform complex, robust mathematical proofs and derivations.
 - [TAU-bench](https://github.com/sierra-research/tau-bench): TauBench is an open-source benchmark suite designed to evaluate the performance of large language models (LLMs) on complex reasoning tasks across multiple domains.
 
 ### Code
@@ -56,17 +58,33 @@ Golang AI applications have incredible potential. With unique features like inex
 - [Code4Bench](https://github.com/code4bench/Code4Bench): A Mutildimensional Benchmark of Codeforces Data for Different Program Analysis Techniques.
 - [CRUXEval](https://github.com/facebookresearch/cruxeval): Code Reasoning, Understanding, and Execution Evaluation.
 - [HumanEval](https://github.com/openai/human-eval): Code for the paper "Evaluating Large Language Models Trained on Code".
+- [HLE](https://github.com/centerforaisafety/hle): Humanity's Last Exam.
 - [LiveCodeBench](https://github.com/LiveCodeBench/LiveCodeBench): Holistic and Contamination Free Evaluation of Large Language Models for Code.
 - [MBPP](https://github.com/google-research/google-research/tree/master/mbpp): The benchmark consists of around 1,000 crowd-sourced Python programming problems, designed to be solvable by entry level programmers, covering programming fundamentals, standard library functionality, and so on.
 - [MultiPL-E](https://github.com/nuprl/MultiPL-E): A multi-programming language benchmark for LLMs.
 - [multi-swe-bench](https://github.com/multi-swe-bench/multi-swe-bench): The Multi-SWE-bench project, developed by ByteDance's Doubao team, is the first open-source multilingual dataset for evaluating and enhancing large language models' ability to automatically debug code, covering 7 major programming languages (e.g., Java, C++, JavaScript) with real-world GitHub issues to benchmark "full-stack engineering" capabilities.
-- [SWE-bench](https://github.com/SWE-bench/SWE-bench): SWE-bench is a benchmark suite designed to evaluate the capabilities of large language models (LLMs) in solving real-world software engineering tasks, focusing on actual software bug-fixing challenges extracted from open-source projects.
+
+### Code Agent
+
+- [Multi-SWE-Bench](https://github.com/multi-swe-bench/multi-swe-bench): Multi-SWE-bench: A Multilingual Benchmark for Issue Resolving.
+- [SWE-Bench](https://github.com/SWE-bench/SWE-bench): SWE-bench: Can Language Models Resolve Real-world Github Issues?
+- [Terminal‑Bench](https://github.com/laude-institute/terminal-bench): A benchmark for LLMs on complicated tasks in the terminal.
+
+### Search Agent
+
+- [BrowseComp](https://github.com/openai/simple-evals/blob/main/browsecomp_eval.py):
+- [BrowseComp-Plus](https://github.com/texttron/BrowseComp-Plus): BrowseComp-Plus: A More Fair and Transparent Evaluation Benchmark of Deep-Research Agent.
 
 ### Tool Use
 
 - [BFCL](https://github.com/ShishirPatil/gorilla/tree/main/berkeley-function-call-leaderboard): Training and Evaluating LLMs for Function Calls (Tool Calls).
+- [MCP-Bench](https://github.com/Accenture/mcp-bench): MCP-Bench: Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks via MCP Servers.
+- [MCPMark](https://github.com/eval-sys/mcpmark): MCPMark is a comprehensive, stress-testing MCP benchmark designed to evaluate model and agent capabilities in real-world MCP use.
+- [MCP-Universe](https://github.com/SalesforceAIResearch/MCP-Universe): MCP-Universe is a comprehensive framework designed for developing, testing, and benchmarking AI agents.
+- [Tool Decathlon](https://github.com/hkust-nlp/Toolathlon):The Tool Decathlon: Benchmarking Language Agents for Diverse, Realistic, and Long-Horizon Task Execution.
 - [T-Eval](https://github.com/open-compass/T-Eval): [ACL2024] T-Eval: Evaluating Tool Utilization Capability of Large Language Models Step by Step.
 - [WildBench](https://github.com/allenai/WildBench): Benchmarking LLMs with Challenging Tasks from Real Users.
+- [τ²-Bench](https://github.com/sierra-research/tau2-bench): τ²-Bench: Evaluating Conversational Agents in a Dual-Control Environment.
 
 ### Open ended
 
