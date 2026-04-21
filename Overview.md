@@ -160,6 +160,7 @@ Golang AI applications have incredible potential. With unique features like inex
 ### DevTools
 
 - [LocalAI](https://github.com/mudler/LocalAI): 🤖 The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first. Drop-in replacement for OpenAI, running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more models architectures. Features: Generate Text, Audio, Video, Images, Voice Cloning, Distributed, P2P inference.
+- [ai-gateway](https://github.com/ferro-labs/ai-gateway): High-performance AI gateway in Go that routes LLM requests across multiple providers through a single OpenAI-compatible API, with routing, guardrails, caching, observability, and MCP support.
 - [ollama](https://github.com/ollama/ollama): Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 2, and other large language models.
 - [go-attention](https://github.com/takara-ai/go-attention): A full attention mechanism and transformer in pure go.
 - [langchaingo](https://github.com/tmc/langchaingo): LangChain for Go, the easiest way to write LLM-based programs in Go.

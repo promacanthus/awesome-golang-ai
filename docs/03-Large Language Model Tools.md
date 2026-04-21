@@ -56,6 +56,8 @@ Development tools for LLM applications in Go enhance the development workflow by
 
 [genkit](https://github.com/firebase/genkit) is an open-source framework for building AI-powered applications with familiar code-centric patterns. It emphasizes observability and evaluations, making it easier to develop, integrate, and test AI features. The framework works with various models and platforms, providing flexibility in technology choices.
 
+[ai-gateway](https://github.com/ferro-labs/ai-gateway) is a high-performance AI gateway written in Go that routes requests across multiple LLM providers through a single OpenAI-compatible API. It is especially useful for production deployments that need routing strategies, retries, guardrails, caching, observability, and MCP support without introducing a heavyweight proxy layer.
+
 The Model Context Protocol (MCP) implementations like [mcp-go](https://github.com/mark3labs/mcp-go) and [mcp-golang](https://github.com/metoro-io/mcp-golang) enable seamless integration between LLM applications and external data sources and tools. These tools address the challenge of providing context to language models by standardizing how applications share information with AI systems.
 
 [fabric](https://github.com/danielmiessler/fabric) provides a modular framework for solving specific problems using crowdsourced AI prompts. This approach allows developers to leverage community knowledge while maintaining control over the prompt engineering process.
