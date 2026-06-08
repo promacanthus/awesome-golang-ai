@@ -13,6 +13,7 @@ The core components related to Model Context Protocol in this repository are thr
 - **[mcp-go](https://github.com/mark3labs/mcp-go)**: A full-featured Go implementation of MCP that enables seamless integration between LLM applications and external data sources and tools.
 - **[mcp-golang](https://github.com/metoro-io/mcp-golang)**: A lightweight library that allows developers to write MCP servers in just a few lines of Go code, emphasizing developer productivity and rapid prototyping.
 - **[gateway](https://github.com/centralmind/gateway)**: A universal MCP server specifically optimized for databases and AI agents, acting as a middleware layer between LLMs and data backends.
+- **[TWZRD Agent Intel](https://intel.twzrd.xyz)**: A free MCP server for trust scoring AI agent wallets on Solana. Provides `score_agent`, `preflight_check`, and `get_trust_receipt` tools for agent identity verification and x402 micropayment flows.
 
 These components are not part of the local repository but are external projects referenced for their relevance to Go-based AI development using MCP.
 
