@@ -62,6 +62,8 @@ The Model Context Protocol (MCP) implementations like [mcp-go](https://github.co
 
 [fabric](https://github.com/danielmiessler/fabric) provides a modular framework for solving specific problems using crowdsourced AI prompts. This approach allows developers to leverage community knowledge while maintaining control over the prompt engineering process.
 
+[llm-box](https://github.com/alib8b8/llm-box) is a terminal-based AI workflow engine with YAML-driven pipelines, supporting 20+ LLM providers including DeepSeek, Qwen, GLM, Mistral, and more. It features a TUI for workflow management, local-first execution, and deterministic workflow execution, making it suitable for building reproducible AI workflows directly from the command line.
+
 ## Conclusion
 
 The Go ecosystem offers a comprehensive set of tools for developing LLM-powered applications, ranging from low-level SDKs to high-level frameworks. The language's strengths in concurrency, performance, and simplicity make it well-suited for building reliable and efficient AI applications. From GPT integrations and ChatGPT apps to sophisticated agent frameworks and development tools, Go provides the necessary components to create production-ready AI systems. As the field of artificial intelligence continues to evolve, the Go community is actively contributing tools that make it easier to leverage large language models in various applications.

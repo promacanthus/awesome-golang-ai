@@ -174,6 +174,7 @@ Golang AI applications have incredible potential. With unique features like inex
 - [orra](https://github.com/orra-dev/orra): The orra-dev/orra project offers resilience for AI agent workflows.
 - [core](https://github.com/agent-api/core): A fast, agnostic, and powerful Go AI framework for one-shot workflows, building autonomous agents, and working with LLM providers.
 - [gollm](https://github.com/teilomillet/gollm): Unified Go interface for Language Model (LLM) providers. Simplifies LLM integration with flexible prompt management and common task functions.
+- [llm-box](https://github.com/alib8b8/llm-box): Terminal-based AI workflow engine with YAML-driven pipelines, 20+ LLM providers (DeepSeek, Qwen, GLM, Mistral, etc.), and a TUI for workflow management.
 
 ## RAG (Retrieval Augmented Generation)
 
