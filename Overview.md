@@ -144,6 +144,7 @@ Golang AI applications have incredible potential. With unique features like inex
 - [AgenticGoKit](https://github.com/kunalkushwaha/AgenticGoKit): Event-driven Agentic AI framework in Go. LLM-agnostic with MCP tool discovery, built-in observability, and production patterns.
 - [agent-sdk-go](https://github.com/pontus-devoteam/agent-sdk-go): Build AI agents in light speed.
 - [code-editing-agent](https://github.com/promacanthus/code-editing-agent): A Go-based AI agent that edits code using the DeepSeek model, offering a clear example of how AI agents work.
+- [golem](https://github.com/abubakarsiddik31/golem): A Go-first framework for building dependable AI agents with compile-time type safety via generics, zero external dependencies, and native MCP support.
 
 ### SDKs
 
