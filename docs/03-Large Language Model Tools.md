@@ -30,6 +30,8 @@ Agent frameworks in Go enable the creation of autonomous systems capable of inte
 
 [enio](https://github.com/enio/enio) is the ultimate LLM/AI application development framework in Golang.
 
+[golem](https://github.com/abubakarsiddik31/golem) is a Go framework for building dependable AI agents with compile-time type safety via generics (`Agent[Deps, Out]`), zero external dependencies, native Model Context Protocol (MCP) support, and layout-aware document extraction.
+
 The [code-editing-agent](https://github.com/promacanthus/code-editing-agent) provides a concrete example of an AI agent that edits code using the DeepSeek model. This implementation demonstrates how Go-based agents can perform specialized tasks like code modification, showcasing the practical application of agent technology in software development workflows.
 
 ![code-editing-agent](../images/code-editing-agent.png)
