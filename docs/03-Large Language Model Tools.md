@@ -32,6 +32,8 @@ Agent frameworks in Go enable the creation of autonomous systems capable of inte
 
 [golem](https://github.com/abubakarsiddik31/golem) is a Go framework for building dependable AI agents with compile-time type safety via generics (`Agent[Deps, Out]`), zero external dependencies, native Model Context Protocol (MCP) support, and layout-aware document extraction.
 
+[quilzo](https://github.com/quilzo/quilzo) is a self-hosted control plane for AI agents, written with the Go standard library only. Each agent's declaration (capabilities, content it may read, budget, autonomy) is enforced at one gate whichever model decides, alongside an OpenAI-compatible model gateway with PII masking, an MCP server and governed MCP gateway, A2A 1.0, and run receipts provable against a signed log.
+
 The [code-editing-agent](https://github.com/promacanthus/code-editing-agent) provides a concrete example of an AI agent that edits code using the DeepSeek model. This implementation demonstrates how Go-based agents can perform specialized tasks like code modification, showcasing the practical application of agent technology in software development workflows.
 
 ![code-editing-agent](../images/code-editing-agent.png)
