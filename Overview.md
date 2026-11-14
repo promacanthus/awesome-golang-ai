@@ -186,6 +186,7 @@ Golang AI applications have incredible potential. With unique features like inex
 - [MinerU](https://github.com/opendatalab/MinerU): A high-quality tool for convert PDF to Markdown and JSON.
 - [docling](https://github.com/docling-project/docling): Get your documents ready for gen AI.
 - [marker](https://github.com/datalab-to/marker): Convert PDF to markdown + JSON quickly with high accuracy.
+- [huntsman](https://github.com/TulipFarm/huntsman): Self-hosted Go web scraper that turns any web page into clean Markdown for LLMs, with a Firecrawl-compatible API.
 
 ### Pipeline and Data Version
 
