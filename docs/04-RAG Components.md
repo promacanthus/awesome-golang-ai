@@ -20,6 +20,7 @@ Document parsers are responsible for extracting text content from various file f
 - **[MinerU](https://github.com/opendatalab/MinerU)**: A high-quality tool for converting PDF documents to Markdown and JSON formats, maintaining document structure and metadata.
 - **[docling](https://github.com/docling-project/docling)**: A document processing tool designed to prepare documents for generative AI applications, handling various document types and formats.
 - **[marker](https://github.com/datalab-to/marker)**: A fast and accurate tool for converting PDF files to Markdown and JSON with high precision in text extraction and layout preservation.
+- **[Huntsman](https://github.com/TulipFarm/huntsman)**: Self-hosted web scraper written in Go that converts any web page into Markdown for LLMs, with a Firecrawl-compatible /v1/scrape endpoint.
 
 These document parsers play a crucial role in the initial stage of RAG pipelines by transforming unstructured or semi-structured documents into clean, structured text that can be effectively processed and indexed. The choice of parser depends on the specific document types being processed and the required output format for downstream components.
 
