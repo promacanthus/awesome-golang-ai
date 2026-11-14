@@ -146,6 +146,7 @@ Golang AI applications have incredible potential. With unique features like inex
 - [code-editing-agent](https://github.com/promacanthus/code-editing-agent): A Go-based AI agent that edits code using the DeepSeek model, offering a clear example of how AI agents work.
 - [golem](https://github.com/abubakarsiddik31/golem): A Go-first framework for building dependable AI agents with compile-time type safety via generics, zero external dependencies, and native MCP support.
 - [quilzo](https://github.com/quilzo/quilzo): A self-hosted control plane for AI agents, Go standard library only: each agent's declaration enforced at one gate, a model gateway with PII masking and memory, a governed MCP gateway, A2A 1.0, and receipts provable against a signed log.
+- [kodama](https://github.com/optimiware/kodama): API-first, multi-tenant software factory in Go (Apache-2.0) running sequential container pipelines and AI coding agents (Claude Code, OpenCode, Codex, Pi) on Podman 5 or Kubernetes Jobs, with REST and MCP JSON-RPC edges, an external MCP proxy, an OpenAI-compatible model gateway, gitolite-style Git access control, and human-in-the-loop role inbox approvals.
 
 ### SDKs
 
