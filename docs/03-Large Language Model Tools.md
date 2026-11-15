@@ -34,6 +34,8 @@ Agent frameworks in Go enable the creation of autonomous systems capable of inte
 
 [quilzo](https://github.com/quilzo/quilzo) is a self-hosted control plane for AI agents, written with the Go standard library only. Each agent's declaration (capabilities, content it may read, budget, autonomy) is enforced at one gate whichever model decides, alongside an OpenAI-compatible model gateway with PII masking, an MCP server and governed MCP gateway, A2A 1.0, and run receipts provable against a signed log.
 
+[kodama](https://github.com/optimiware/kodama) is an API-first, multi-tenant software factory written in Go (Apache-2.0) that runs sequential container pipelines and AI coding agents (Claude Code, OpenCode, Codex, Pi) on Podman 5 or Kubernetes Jobs. It exposes REST and Streamable HTTP MCP JSON-RPC edges (`kodactl mcp install`), an external MCP proxy, an OpenAI-compatible model gateway, gitolite-style Git access control, and human-in-the-loop role inbox approvals.
+
 The [code-editing-agent](https://github.com/promacanthus/code-editing-agent) provides a concrete example of an AI agent that edits code using the DeepSeek model. This implementation demonstrates how Go-based agents can perform specialized tasks like code modification, showcasing the practical application of agent technology in software development workflows.
 
 ![code-editing-agent](../images/code-editing-agent.png)
