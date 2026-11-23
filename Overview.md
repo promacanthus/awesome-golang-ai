@@ -73,7 +73,6 @@ Golang AI applications have incredible potential. With unique features like inex
 ### Search Agent
 
 - [BrowseComp](https://openai.com/index/browsecomp/): An OpenAI benchmark with 1,266 questions that test how well AI agents can find hard-to-locate information on the web and return short, verifiable answers.
-  中文：OpenAI 发布的网页检索基准，包含 1,266 道题，评估 AI Agent 能否在网上找到难以查找的信息，并给出简短、可核验的答案。
 - [BrowseComp-Plus](https://github.com/texttron/BrowseComp-Plus): BrowseComp-Plus: A More Fair and Transparent Evaluation Benchmark of Deep-Research Agent.
 
 ### Tool Use
