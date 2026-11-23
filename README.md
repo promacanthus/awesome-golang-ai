@@ -32,7 +32,7 @@ The awesome-golang-ai list covers a broad spectrum of AI and ML domains, with a 
 - **[RAG (Retrieval-Augmented Generation)](docs/04-RAG%20Components.md)**: Tools for building RAG pipelines, including document parsers for converting PDFs and office files to structured formats, embedding models, and vector databases like Milvus and Weaviate for efficient similarity search.
 - **[General Machine Learning Libraries](docs/05-Machine%20Learning%20Libraries.md)**: Foundational ML libraries in Go that support tasks such as regression, classification, clustering, and data manipulation, including libraries like Gorgonia, Gonum, and Golearn.
 - **[Neural Networks and Deep Learning](docs/05-Machine%20Learning%20Libraries.md)**: Specialized libraries for constructing and training neural networks, including implementations of feedforward networks, self-organizing maps, and recurrent architectures.
-- **[Specialized Domains](docs/docs/05-Machine%20Learning%20Libraries.md)**: Resources for linear algebra, probability distributions, evolutionary algorithms, graph processing, anomaly detection, and recommendation systems.
+- **[Specialized Domains](docs/05-Machine%20Learning%20Libraries.md)**: Resources for linear algebra, probability distributions, evolutionary algorithms, graph processing, anomaly detection, and recommendation systems.
 - **[Educational Materials](docs/06-Educational%20Resources.md)**: Books, tutorials, and datasets to support learning and experimentation in AI with Go.
 
 The list also includes emerging standards like the **Model Context Protocol (MCP)**, which enables integration between LLM applications and external tools, highlighting the project’s focus on practical, interoperable AI development.
@@ -81,29 +81,3 @@ Curation plays a critical role in the Go AI ecosystem due to the relatively smal
 It promotes best practices by highlighting mature, well-maintained projects and encourages community growth by showcasing innovative tools and research. The list also helps identify gaps in the ecosystem, guiding future development efforts.
 
 Furthermore, as Go gains traction in backend AI services, microservices, and cloud-native applications, having a centralized reference ensures that developers can efficiently build robust, scalable AI systems without sacrificing performance or reliability.
-
-## Star History
-
-<!-- Copy-paste in your Readme.md file -->
-
-<a href="https://next.ossinsight.io/widgets/official/analyze-repo-stars-history?repo_id=444070344" target="_blank" style="display: block" align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/analyze-repo-stars-history/thumbnail.png?repo_id=444070344&image_size=auto&color_scheme=dark" width="721" height="auto">
-    <img alt="Star History of promacanthus/awesome-golang-ai" src="https://next.ossinsight.io/widgets/official/analyze-repo-stars-history/thumbnail.png?repo_id=444070344&image_size=auto&color_scheme=light" width="721" height="auto">
-  </picture>
-</a>
-
-<!-- Made with [OSS Insight](https://ossinsight.io/) -->
-
-## Star Geographical Distribution
-
-<!-- Copy-paste in your Readme.md file -->
-
-<a href="https://next.ossinsight.io/widgets/official/analyze-repo-stars-map?repo_id=444070344&activity=stars" target="_blank" style="display: block" align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/analyze-repo-stars-map/thumbnail.png?repo_id=444070344&activity=stars&image_size=auto&color_scheme=dark" width="721" height="auto">
-    <img alt="Star Geographical Distribution of promacanthus/awesome-golang-ai" src="https://next.ossinsight.io/widgets/official/analyze-repo-stars-map/thumbnail.png?repo_id=444070344&activity=stars&image_size=auto&color_scheme=light" width="721" height="auto">
-  </picture>
-</a>
-
-<!-- Made with [OSS Insight](https://ossinsight.io/) -->
