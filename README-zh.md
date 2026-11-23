@@ -32,7 +32,7 @@ awesome-golang-ai 列表涵盖了 AI 和 ML 领域的广泛内容，特别强调
 - **[RAG（检索增强生成）](docs/04-RAG%20Components.md)**：构建 RAG 管道的工具，包括用于将 PDF 和办公文件转换为结构化格式的文档解析器、嵌入模型，以及用于高效相似性搜索的向量数据库，如 Milvus 和 Weaviate。
 - **[通用机器学习库](docs/05-Machine%20Learning%20Libraries.md)**：Go 中的基础 ML 库，支持回归、分类、聚类和数据操作等任务，包括 Gorgonia、Gonum 和 Golearn 等库。
 - **[神经网络和深度学习](docs/05-Machine%20Learning%20Libraries.md)**：用于构建和训练神经网络的专业库，包括前馈网络、自组织映射和循环架构的实现。
-- **[专业领域](docs/docs/05-Machine%20Learning%20Libraries.md)**：线性代数、概率分布、进化算法、图处理、异常检测和推荐系统的资源。
+- **[专业领域](docs/05-Machine%20Learning%20Libraries.md)**：线性代数、概率分布、进化算法、图处理、异常检测和推荐系统的资源。
 - **[教育材料](docs/06-Educational%20Resources.md)**：支持在 Go 中学习和实验 AI 的书籍、教程和数据集。
 
 该列表还包括新兴标准，如**模型上下文协议（MCP）**，它支持 LLM 应用程序与外部工具之间的集成，突出了项目对实用、可互操作的 AI 开发的关注。
@@ -81,29 +81,3 @@ awesome-golang-ai 列表涵盖了 AI 和 ML 领域的广泛内容，特别强调
 它通过突出成熟、维护良好的项目来促进最佳实践，并通过展示创新工具和研究来鼓励社区增长。该列表还有助于识别生态系统中的差距，指导未来的开发工作。
 
 此外，随着 Go 在后端 AI 服务、微服务和云原生应用程序中的采用率增加，拥有集中化的参考确保开发者可以高效地构建强大、可扩展的 AI 系统，而不会牺牲性能或可靠性。
-
-## Star 历史
-
-<!-- Copy-paste in your Readme.md file -->
-
-<a href="https://next.ossinsight.io/widgets/official/analyze-repo-stars-history?repo_id=444070344" target="_blank" style="display: block" align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/analyze-repo-stars-history/thumbnail.png?repo_id=444070344&image_size=auto&color_scheme=dark" width="721" height="auto">
-    <img alt="Star History of promacanthus/awesome-golang-ai" src="https://next.ossinsight.io/widgets/official/analyze-repo-stars-history/thumbnail.png?repo_id=444070344&image_size=auto&color_scheme=light" width="721" height="auto">
-  </picture>
-</a>
-
-<!-- Made with [OSS Insight](https://ossinsight.io/) -->
-
-## Star 地理分布
-
-<!-- Copy-paste in your Readme.md file -->
-
-<a href="https://next.ossinsight.io/widgets/official/analyze-repo-stars-map?repo_id=444070344&activity=stars" target="_blank" style="display: block" align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/analyze-repo-stars-map/thumbnail.png?repo_id=444070344&activity=stars&image_size=auto&color_scheme=dark" width="721" height="auto">
-    <img alt="Star Geographical Distribution of promacanthus/awesome-golang-ai" src="https://next.ossinsight.io/widgets/official/analyze-repo-stars-map/thumbnail.png?repo_id=444070344&activity=stars&image_size=auto&color_scheme=light" width="721" height="auto">
-  </picture>
-</a>
-
-<!-- Made with [OSS Insight](https://ossinsight.io/) -->
